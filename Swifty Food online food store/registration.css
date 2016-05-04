@@ -1,0 +1,61 @@
+input{
+   color: black;    
+}
+#customForm label{
+display: block;
+color: white;
+}
+
+#customForm input .error{
+	background: #99ff99;
+	border-color: #e77776;
+
+}
+
+#customForm input .valid{
+	background:#99ff99;
+	border-color:#green;
+
+}
+
+#customForm div span{
+	margin-left: 10px;
+	font-size: 14px;
+	font-style: italic;
+
+}
+
+#customForm div span.error{
+	color: red;
+
+}
+
+#loginInfo.error{
+		color: red;
+}
+
+#loginInfo.valid{
+		color: green;
+}
+#customForm div span.valid{
+	color: green;
+
+}
+#wrapper {
+    width: 1200px;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+#first {
+    width: 100px;
+    float:left; /* add this */
+	padding-left:270px;
+   
+}
+#second { 
+font-size:15pt;
+padding-left:200px;
+
+padding-top:2px;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+
+}

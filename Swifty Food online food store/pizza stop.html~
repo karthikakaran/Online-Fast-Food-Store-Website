@@ -1,0 +1,3239 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>
+pizza stop</title>
+		<!-- META -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, maximum-scale=1"/> 
+	
+	
+	
+	
+		<script src="https://www.youtube.com/iframe_api"></script>
+		<!-- CSS -->
+		<link rel="stylesheet" href="https://xprs.imcreator.com/css/common.css?v=1.2.9">
+		<link rel="stylesheet" href="https://xprs.imcreator.com/js/lib/sweetalert/sweetalert.css" />
+		
+		<link rel="icon" type="image/png" href="https://xprs.imcreator.com/images/ui_icons/magic_circle.png" />
+		<link rel="apple-touch-icon" href="https://xprs.imcreator.com/images/ui_icons/magic_circle.png" />
+	
+	<link rel="stylesheet" type="text/css" href="https://xprs.imcreator.com/css/lib/font-awesome.min.css?v=1.2.9" />
+		<link rel="stylesheet" type="text/css" href="https://xprs.imcreator.com/stripe_default_css?v=1.2.9&style_type=PREVIEW_STYLE&viewer=xprs" />
+		<link rel="stylesheet" type="text/css" href="https://xprs.imcreator.com/stripe_default_css?v=1.2.9&style_type=STRIPE_STYLE&viewer=xprs" />
+	
+		<link id="style-66c0f-hmegq1oj" rel="stylesheet" type="text/css"   href="https://xprs.imcreator.com/stripe_dynamic_css?style_id=style-66c0f-hmegq1oj&viewer=xprs&parent_style=style-66c0f-hxhdnso2&v=1.2.9">
+		<link id="style-66c0f-3c9bdabb" rel="stylesheet" type="text/css"   href="https://xprs.imcreator.com/stripe_dynamic_css?style_id=style-66c0f-3c9bdabb&viewer=xprs&parent_style=style-66c0f-hxhdnso2&v=1.2.9">
+		<link id="style-66c0f-8tvfeymk" rel="stylesheet" type="text/css"   href="https://xprs.imcreator.com/stripe_dynamic_css?style_id=style-66c0f-8tvfeymk&viewer=xprs&parent_style=style-66c0f-hxhdnso2&v=1.2.9">
+		<link id="style-66c0f-exmhhj7e" rel="stylesheet" type="text/css"   href="https://xprs.imcreator.com/stripe_dynamic_css?style_id=style-66c0f-exmhhj7e&viewer=xprs&parent_style=style-66c0f-hxhdnso2&v=1.2.9">
+		<link id="style-66c0f-hxhdnso2" rel="stylesheet" type="text/css"   href="https://xprs.imcreator.com/stripe_dynamic_css?style_id=style-66c0f-hxhdnso2&viewer=xprs&parent_style=style-66c0f-hxhdnso2&v=1.2.9">
+		<link id="style-66c0f-xzzcevfe" rel="stylesheet" type="text/css"   href="https://xprs.imcreator.com/stripe_dynamic_css?style_id=style-66c0f-xzzcevfe&viewer=xprs&parent_style=style-66c0f-hxhdnso2&v=1.2.9">
+	<link id="vbid-66c0f-jv8mxxbu-STRIPE_DATA" rel="stylesheet" type="text/css"  href="https://xprs.imcreator.com/stripe_data_css?page_id=vbid-66c0f-jv8mxxbu-STRIPE_DATA&v=1.2.9"> 
+	
+		<link id="vbid-66c0f-jv8mxxbu-STRIPE_DATA" rel="stylesheet" type="text/css"  href="https://xprs.imcreator.com/stripe_data_css?page_id=vbid-66c0f-jv8mxxbu-STRIPE_DATA&v=1.2.9"> 
+	
+	<link rel="stylesheet" type="text/css" href="https://xprs.imcreator.com/css/fonts.css?v=1.2.9" />
+		<link rel="stylesheet" type="text/css" href="https://xprs.imcreator.com/css/effects.css?v=1.2.9" />
+		<link rel="stylesheet" type="text/css" href="https://xprs.imcreator.com/css/lightbox.css?v=1.2.9">
+	
+	<!-- ARRANGERS -->
+	
+	<link rel="stylesheet" type="text/css" href="https://xprs.imcreator.com/arrangers/flex_arranger/flex_arranger.css?v=1.2.9">
+	
+	<link rel="stylesheet" type="text/css" href="https://xprs.imcreator.com/arrangers/stripes_arranger/stripes_arranger.css?v=1.2.9">
+	
+	<link rel="stylesheet" type="text/css" href="https://xprs.imcreator.com/arrangers/matrix_arranger/matrix_arranger.css?v=1.2.9">
+	
+	<!-- LAYOUTS -->
+	
+	<link rel="stylesheet" type="text/css" href="https://xprs.imcreator.com/layouts/middle_layout/middle_layout.css?v=1.2.9">
+	
+	<link rel="stylesheet" type="text/css" href="https://xprs.imcreator.com/layouts/multi_layout/multi_layout.css?v=1.2.9">
+	
+	<link rel="stylesheet" type="text/css" href="https://xprs.imcreator.com/layouts/menu_layout/menu_layout.css?v=1.2.9">
+	
+	<link rel="stylesheet" type="text/css" href="https://xprs.imcreator.com/css/spimeview.css?v=1.2.9">
+	
+		
+		<!-- SCRIPT -->
+		<script src="https://xprs.imcreator.com/js/lib/jquery/jquery-2.1.0.min.js" type="text/javascript"></script>
+		<script src="https://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
+		
+		<script src="https://xprs.imcreator.com/js/xprs_helper.js?v=1.2.9" type="text/javascript"></script>
+		
+		<script src="https://xprs.imcreator.com/js/lib/jquery.cookie.min.js" type="text/javascript"></script>
+		<script src="https://xprs.imcreator.com/js/lib/sweetalert/sweetalert.min.js" type="text/javascript"></script>
+		<script src="https://xprs.imcreator.com/translation_js?lang=en" type="text/javascript"></script>
+		
+		<!-- User Head Code -->
+		
+	
+
+		<script src="https://xprs.imcreator.com/js/lib/touchswipe/jquery.mobile.custom.min.js"></script>	
+	
+	
+	
+	<!-- User analytics -->
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+	<!-- Label config-->
+	
+		<script>
+		
+		 var LABEL_CONFIG = JSON.parse('{"LANDING_PAGE": "homepage", "BILLING": {"BUY_NOW_URL": "none", "BUY_NOW_IMAGE": "none", "PAYPAL_RECURRENCES": "1", "CUSTOM_CURRENCY": "USD", "HIDE_FREE_URL": "off", "PAYPAL_ID": "", "PAYPAL_AMOUNT": "100", "CUSTOM_TITLE": "Single Commercial License", "PAYPAL_PERIOD": "Y", "CUSTOM_EXPLAINED": "single domain connection for a single site. unlimited bandwidth, unlimited storage, premium support, e-commerce", "BILLING_TYPE": "abtest", "PAYPAL_OFFER_NAME": "Premium Subscription", "CUSTOM_CYCLE": "/month paid annualy", "PAYPAL_CURRENCY": "USD", "CUSTOM_PRICE": "100"}, "BRANDING": {"BRAND_SECONDARY_COLOR": "rgb(255,255,255)", "BRAND_SMALL_LOGO": "https://lh3.googleusercontent.com/PVw5qfegr3TcOhyx6UH2QShnmtTexxEIuzECuxiKnbfkzYPv28lrzSMSnelUe7nkoYjs-KLxOYzo1wgOSZk", "BRAND_MAIN_COLOR": "rgb(0,0,0)", "BRAND_BG": "https://lh3.googleusercontent.com/ZgLp2jeL7ynJJZ-aMv-LgcFLv1-wuV0E4mMxsQXqyPe9CDHiClIlQODrGLalwzQp4XNWjMBy8Z68369P4Q", "BRAND_LARGE_LOGO": "https://lh3.googleusercontent.com/BVPCuhW88_eSWMXpfFE8ZZh9IxRktAzfOp_rZ9vvhH2zLhLNoCJ6TjOleEnqppMxvYHdvsxDX-uXWfRrgQ"}, "SUPPORT": {"SUPPORT_URL": "http://support.imxprs.com/hc/en-us/requests/new", "VIDEO_ID": "K1ZnSLe-Rdk", "SUPPORT_ID": "", "KNOWLEDGE_CENTER_URL": "http://support.imxprs.com/hc/en-us"}, "ANALYTICS_ID": "UA-64970204-1", "META": {"OWNER": "xprsxprs", "DOMAIN": "xprs.imcreator.com", "CREATION_DATE": "28-07-2015 13:34:42", "NAME": "xprs", "PRODUCT_NAME": "XPRS"}, "DOMAIN_BILLING": {"BUY_NOW_URL": "none", "PAYPAL_RECURRENCES": "1", "CUSTOM_CURRENCY": "USD", "PAYPAL_PERIOD": "Y", "PAYPAL_AMOUNT": "100", "PAYPAL_ID": "", "CUSTOM_EXPLAINED": "1-Year domain subscription", "BILLING_TYPE": "standard", "PAYPAL_OFFER_NAME": "Premium Subscription", "PAYPAL_CURRENCY": "USD", "CUSTOM_PRICE": "100"}, "ID": "label-f6d7c", "SETTINGS": {"ALLOW_PHONE_EDIT": "allow", "REGISTER_STEP": "normal", "ALLOW_RESELLER": "allow", "ECOMMERCE_DASHBOARD": "http://dashboard.shoprocket.co", "ALLOW_NEW_DOMAIN": "allow", "ALLOW_NEW_SITES": "allow", "DEFAULT_EDITOR_LANG": "en"}, "EMAILS": {"FORWARD_ALL_EMAILS": "off", "FORWARD_EMAIL": ""}, "SERVERS": {"S3_SECRET": "", "S3_BUCKET": "", "S3_ACCESS": "", "UPLOAD_TO_S3": "off"}, "TOS_URL": "http://www.imcreator.com/terms-of-service"}');
+		 
+		</script></head>
+
+	<body class="fast-animated-bg fixed-bg " data-root-id="vbid-66c0f-jv8mxxbu" data-root-style-id="style-66c0f-hxhdnso2" data-default-currency="USD" data-app-version="1.2.9" data-caller="preview" data-ecommerce-dashboard="http://dashboard.shoprocket.co">
+		<div id="xprs" data-website-name="pizza stop" class="xprs-holder" >
+			<div class="main-page "  >
+				<div id="content">
+					<div  id="vbid-66c0f-jv8mxxbu"  class="master container style-66c0f-hxhdnso2 content stripes  website-style " data-itemtype="folder" data-creator="" data-itemname="pizza stop"  data-itemslug="pizza-stop" data-itemstyleid="style-66c0f-hxhdnso2" data-margintop="" data-arranger="stripes" data-layout="multi" data-vbid="vbid-66c0f-jv8mxxbu" data-preset-type-id="" data-preview-style="style-66c0f-hxhdnso2" data-style="style-7f715-gkcpu3e69m" data-absolute-path="https://xprs.imcreator.com/viewer">
+	<!-- ARRANGER SETTINGS -->
+	<div class="arranger-settings" style="display:none;"
+		data-ARRANGER_TYPE="stripes"
+		data-ARRANGER_COLS="0"
+		data-ARRANGER_ITEM_MAX_WIDTH="400"
+		data-ARRANGER_ITEM_MIN_WIDTH="230"
+		data-ARRANGER_ITEM_RATIO="1"
+		data-ARRANGER_ITEM_SPACING="20"
+		data-ARRANGER_ITEMS_PER_PAGE="all"
+		data-ARRANGER_ORDER_TYPE="regular"
+		data-AUTO_PLAY="false"
+		data-AUTO_PLAY_DURATION="4"
+		data-FLEX_ELEMENT_EFFECT=""
+	></div>
+	<div class="layout-settings" style="display:none;" data-type="multi"></div>
+	<div id="children">
+	
+	
+	
+	
+		<div  id="element-571551f3cbb5f3d"  class="master item-box element-box style-66c0f-hxhdnso2       " data-holder-type="element"" data-holder-type="element"  data-child-type="RAW"  data-styleid="style-66c0f-hxhdnso2"  data-preset-type-id="">
+			<div id="" class="stripe-background load-high-res " ></div>
+			<div class="element-wrapper item-wrapper raw-wrapper ">
+					
+						<div class="content">
+					
+					<div class="page-raw-cover dynamic-height" >
+	<div id="element-571551f3cbb5f3d" class="element html-source magic-circle-holder page_topper_app page-app" data-menu-name="RAW" data-json-name="HTML_IFRAME" >
+	<div class="raw-container" id="element-571551f3cbb5f3d-raw" data-raw-content-url="/html_src/static-d1293d2f87e6c26?raw=true&type=page_topper_app" data-static="true" >
+	
+		<script>
+(function(){
+  var body = null;
+  var topThreshhold = 100; //px
+  var animation = null;
+  var duration = null; // ms
+  var customDuration = false;
+  var startTime = null;
+  var startPosition = null;
+  var backToTopping = false;
+
+  function ready(fn) {
+    if (document.readyState != 'loading') {
+      fn()
+    } else {
+      document.addEventListener('DOMContentLoaded', fn)
+    }
+  };
+
+  function extend(target, source) {
+    for (var key in source) {
+      if (!(key in target)) {
+        target[key] = source[key];
+      }
+    }
+    return target;
+  };
+
+  function easeInOutQuad(t, b, c, d) {
+    t /= d / 2;
+    if (t < 1) return c / 2 * t * t + b;
+    t--;
+    return -c / 2 * (t * (t -2) - 1) + b;
+  };
+
+  function extendParameters(options, defaults){
+    for (var option in defaults) {
+      var t = options[option] === undefined && typeof option !== 'function';
+      if (t) {
+        options[option] = defaults[option];
+      }
+    }
+    return options;
+  }
+
+  function animateLoop(time) {
+    if (!startTime) {
+      startTime = time;
+    }
+
+    var timeSoFar = time - startTime;
+    var easedPosition = easeInOutQuad(timeSoFar, startPosition, -startPosition, duration);
+
+    window.scrollTo(0, easedPosition);
+
+    if (timeSoFar < duration) {
+      animation = requestAnimationFrame(animateLoop);
+    } else {
+      animationFinished();
+    }
+   };
+
+  function backToTop() {
+    if (backToTopping) {
+      return;
+    }
+
+    backToTopping = true;
+    startPosition = (document.documentElement.scrollTop || body.scrollTop);
+
+    if (!customDuration) {
+      duration = startPosition / 2;
+    }
+
+    requestAnimationFrame(animateLoop);
+  }
+
+  function resetPositions() {
+    startTime = null;
+    startPosition = null;
+    backToTopping = false;
+  }
+
+  function animationFinished() {
+    resetPositions();
+  }
+
+  function onWindowBlur() {
+    if (backToTopping) {
+      cancelAnimationFrame(animation);
+      resetPositions();
+      window.scrollTo(0, 0);
+    }
+  }
+
+  function bindElevateToElement(element) {
+    element.addEventListener('click', backToTop, false);
+  }
+
+  function main(options) {
+    body = document.body;
+
+    var defaults = {
+      duration: undefined
+    };
+
+    options = extendParameters(options, defaults);
+
+    if (options.element) {
+      bindElevateToElement(options.element);
+    }
+
+    if (options.duration) {
+      customDuration = true;
+      duration = options.duration;
+    }
+
+    window.addEventListener('blur', onWindowBlur, false);
+
+    window.addEventListener('scroll', function(){
+      if (window.scrollY > topThreshhold) {
+        options.element.setAttribute('show', 'true');
+      } else {
+        options.element.setAttribute('show', 'false');
+      }
+    });
+  }
+
+  var BackToTop = extend(main, {
+    backToTop: backToTop
+  });
+
+  ready(function(){
+    var button = document.createElement('button');
+    var text = document.createElement('text');
+
+    button.className = 'xprs-back-to-top-button';
+    button.appendChild(text);
+
+    document.body.appendChild(button);
+
+    new BackToTop({
+      element: button
+    });
+  });
+})();
+</script>
+<style>
+button.xprs-back-to-top-button {
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antaliased;
+  display: block;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  height: 75px;
+  width: 75px;
+  bottom: 25px;
+  right: 25px;
+  font-size: 40px;
+  line-height: 75px;
+  border-radius: 5px;
+  background: #ccc;
+  background-color: rgba(0, 0, 0, .1);
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 0;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+  pointer-events: none;
+  z-index: 7000;
+}
+
+@media (max-width: 786px) {
+  button.xprs-back-to-top-button {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    border-radius: 3px;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+button.xprs-back-to-top-button[show="true"] {
+  pointer-events: all;
+  opacity: 1;
+}
+
+button.xprs-back-to-top-button text, button.xprs-back-to-top-button text:before, button.xprs-back-to-top-button text:after {
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+button.xprs-back-to-top-button text:before {
+  color: #aaa;
+  color: rgba(0, 0, 0, .4);
+  content: "\21E7";
+}
+</style>
+	
+	</div>
+	</div>
+</div>
+					
+						</div>
+					
+			</div>
+		</div>
+		
+		
+		
+	
+	
+	
+		<div  id="element-d36d11173da778f"  class="master item-box element-box style-66c0f-hxhdnso2       " data-holder-type="element"" data-holder-type="element"  data-child-type="RAW"  data-styleid="style-66c0f-hxhdnso2"  data-preset-type-id="">
+			<div id="" class="stripe-background load-high-res " ></div>
+			<div class="element-wrapper item-wrapper raw-wrapper ">
+					
+						<div class="content">
+					
+					<div class="page-raw-cover dynamic-height" >
+	<div id="element-d36d11173da778f" class="element html-source magic-circle-holder page_loader_app page-app" data-menu-name="RAW" data-json-name="HTML_IFRAME" >
+	<div class="raw-container" id="element-d36d11173da778f-raw" data-raw-content-url="/html_src/static-a056805fe2a19a9?raw=true&type=page_loader_app" data-static="true" >
+	
+		<script>
+(function() {
+    var a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X = [].slice,
+        Y = {}.hasOwnProperty,
+        Z = function(a, b) {
+            function c() {
+                this.constructor = a
+            }
+            for (var d in b) Y.call(b, d) && (a[d] = b[d]);
+            return c.prototype = b.prototype, a.prototype = new c, a.__super__ = b.prototype, a
+        },
+        $ = [].indexOf || function(a) {
+            for (var b = 0, c = this.length; c > b; b++)
+                if (b in this && this[b] === a) return b;
+            return -1
+        };
+    for (u = {
+            catchupTime: 100,
+            initialRate: .03,
+            minTime: 250,
+            ghostTime: 100,
+            maxProgressPerFrame: 20,
+            easeFactor: 1.25,
+            startOnPageLoad: !0,
+            restartOnPushState: !0,
+            restartOnRequestAfter: 500,
+            target: "body",
+            elements: {
+                checkInterval: 100,
+                selectors: ["body"]
+            },
+            eventLag: {
+                minSamples: 10,
+                sampleCount: 3,
+                lagThreshold: 3
+            },
+            ajax: {
+                trackMethods: ["GET"],
+                trackWebSockets: !0,
+                ignoreURLs: []
+            }
+        }, C = function() {
+            var a;
+            return null != (a = "undefined" != typeof performance && null !== performance && "function" == typeof performance.now ? performance.now() : void 0) ? a : +new Date
+        }, E = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame, t = window.cancelAnimationFrame || window.mozCancelAnimationFrame, null == E && (E = function(a) {
+            return setTimeout(a, 50)
+        }, t = function(a) {
+            return clearTimeout(a)
+        }), G = function(a) {
+            var b, c;
+            return b = C(), (c = function() {
+                var d;
+                return d = C() - b, d >= 33 ? (b = C(), a(d, function() {
+                    return E(c)
+                })) : setTimeout(c, 33 - d)
+            })()
+        }, F = function() {
+            var a, b, c;
+            return c = arguments[0], b = arguments[1], a = 3 <= arguments.length ? X.call(arguments, 2) : [], "function" == typeof c[b] ? c[b].apply(c, a) : c[b]
+        }, v = function() {
+            var a, b, c, d, e, f, g;
+            for (b = arguments[0], d = 2 <= arguments.length ? X.call(arguments, 1) : [], f = 0, g = d.length; g > f; f++)
+                if (c = d[f])
+                    for (a in c) Y.call(c, a) && (e = c[a], null != b[a] && "object" == typeof b[a] && null != e && "object" == typeof e ? v(b[a], e) : b[a] = e);
+            return b
+        }, q = function(a) {
+            var b, c, d, e, f;
+            for (c = b = 0, e = 0, f = a.length; f > e; e++) d = a[e], c += Math.abs(d), b++;
+            return c / b
+        }, x = function(a, b) {
+            var c, d, e;
+            if (null == a && (a = "options"), null == b && (b = !0), e = document.querySelector("[data-pace-" + a + "]")) {
+                if (c = e.getAttribute("data-pace-" + a), !b) return c;
+                try {
+                    return JSON.parse(c)
+                } catch (f) {
+                    return d = f, "undefined" != typeof console && null !== console ? console.error("Error parsing inline pace options", d) : void 0
+                }
+            }
+        }, g = function() {
+            function a() {}
+            return a.prototype.on = function(a, b, c, d) {
+                var e;
+                return null == d && (d = !1), null == this.bindings && (this.bindings = {}), null == (e = this.bindings)[a] && (e[a] = []), this.bindings[a].push({
+                    handler: b,
+                    ctx: c,
+                    once: d
+                })
+            }, a.prototype.once = function(a, b, c) {
+                return this.on(a, b, c, !0)
+            }, a.prototype.off = function(a, b) {
+                var c, d, e;
+                if (null != (null != (d = this.bindings) ? d[a] : void 0)) {
+                    if (null == b) return delete this.bindings[a];
+                    for (c = 0, e = []; c < this.bindings[a].length;) e.push(this.bindings[a][c].handler === b ? this.bindings[a].splice(c, 1) : c++);
+                    return e
+                }
+            }, a.prototype.trigger = function() {
+                var a, b, c, d, e, f, g, h, i;
+                if (c = arguments[0], a = 2 <= arguments.length ? X.call(arguments, 1) : [], null != (g = this.bindings) ? g[c] : void 0) {
+                    for (e = 0, i = []; e < this.bindings[c].length;) h = this.bindings[c][e], d = h.handler, b = h.ctx, f = h.once, d.apply(null != b ? b : this, a), i.push(f ? this.bindings[c].splice(e, 1) : e++);
+                    return i
+                }
+            }, a
+        }(), j = window.Pace || {}, window.Pace = j, v(j, g.prototype), D = j.options = v({}, u, window.paceOptions, x()), U = ["ajax", "document", "eventLag", "elements"], Q = 0, S = U.length; S > Q; Q++) K = U[Q], D[K] === !0 && (D[K] = u[K]);
+    i = function(a) {
+        function b() {
+            return V = b.__super__.constructor.apply(this, arguments)
+        }
+        return Z(b, a), b
+    }(Error), b = function() {
+        function a() {
+            this.progress = 0
+        }
+        return a.prototype.getElement = function() {
+            var a;
+            if (null == this.el) {
+                if (a = document.querySelector(D.target), !a) throw new i;
+                this.el = document.createElement("div"), this.el.className = "pace pace-active", document.body.className = document.body.className.replace(/pace-done/g, ""), document.body.className += " pace-running", this.el.innerHTML = '<div class="pace-progress">\n  <div class="pace-progress-inner"></div>\n</div>\n<div class="pace-activity"></div>', null != a.firstChild ? a.insertBefore(this.el, a.firstChild) : a.appendChild(this.el)
+            }
+            return this.el
+        }, a.prototype.finish = function() {
+            var a;
+            return a = this.getElement(), a.className = a.className.replace("pace-active", ""), a.className += " pace-inactive", document.body.className = document.body.className.replace("pace-running", ""), document.body.className += " pace-done"
+        }, a.prototype.update = function(a) {
+            return this.progress = a, this.render()
+        }, a.prototype.destroy = function() {
+            try {
+                this.getElement().parentNode.removeChild(this.getElement())
+            } catch (a) {
+                i = a
+            }
+            return this.el = void 0
+        }, a.prototype.render = function() {
+            var a, b, c, d, e, f, g;
+            if (null == document.querySelector(D.target)) return !1;
+            for (a = this.getElement(), d = "translate3d(" + this.progress + "%, 0, 0)", g = ["webkitTransform", "msTransform", "transform"], e = 0, f = g.length; f > e; e++) b = g[e], a.children[0].style[b] = d;
+            return (!this.lastRenderedProgress || this.lastRenderedProgress | 0 !== this.progress | 0) && (a.children[0].setAttribute("data-progress-text", "" + (0 | this.progress) + "%"), this.progress >= 100 ? c = "99" : (c = this.progress < 10 ? "0" : "", c += 0 | this.progress), a.children[0].setAttribute("data-progress", "" + c)), this.lastRenderedProgress = this.progress
+        }, a.prototype.done = function() {
+            return this.progress >= 100
+        }, a
+    }(), h = function() {
+        function a() {
+            this.bindings = {}
+        }
+        return a.prototype.trigger = function(a, b) {
+            var c, d, e, f, g;
+            if (null != this.bindings[a]) {
+                for (f = this.bindings[a], g = [], d = 0, e = f.length; e > d; d++) c = f[d], g.push(c.call(this, b));
+                return g
+            }
+        }, a.prototype.on = function(a, b) {
+            var c;
+            return null == (c = this.bindings)[a] && (c[a] = []), this.bindings[a].push(b)
+        }, a
+    }(), P = window.XMLHttpRequest, O = window.XDomainRequest, N = window.WebSocket, w = function(a, b) {
+        var c, d, e, f;
+        f = [];
+        for (d in b.prototype) try {
+            e = b.prototype[d], f.push(null == a[d] && "function" != typeof e ? a[d] = e : void 0)
+        } catch (g) {
+            c = g
+        }
+        return f
+    }, A = [], j.ignore = function() {
+        var a, b, c;
+        return b = arguments[0], a = 2 <= arguments.length ? X.call(arguments, 1) : [], A.unshift("ignore"), c = b.apply(null, a), A.shift(), c
+    }, j.track = function() {
+        var a, b, c;
+        return b = arguments[0], a = 2 <= arguments.length ? X.call(arguments, 1) : [], A.unshift("track"), c = b.apply(null, a), A.shift(), c
+    }, J = function(a) {
+        var b;
+        if (null == a && (a = "GET"), "track" === A[0]) return "force";
+        if (!A.length && D.ajax) {
+            if ("socket" === a && D.ajax.trackWebSockets) return !0;
+            if (b = a.toUpperCase(), $.call(D.ajax.trackMethods, b) >= 0) return !0
+        }
+        return !1
+    }, k = function(a) {
+        function b() {
+            var a, c = this;
+            b.__super__.constructor.apply(this, arguments), a = function(a) {
+                var b;
+                return b = a.open, a.open = function(d, e) {
+                    return J(d) && c.trigger("request", {
+                        type: d,
+                        url: e,
+                        request: a
+                    }), b.apply(a, arguments)
+                }
+            }, window.XMLHttpRequest = function(b) {
+                var c;
+                return c = new P(b), a(c), c
+            };
+            try {
+                w(window.XMLHttpRequest, P)
+            } catch (d) {}
+            if (null != O) {
+                window.XDomainRequest = function() {
+                    var b;
+                    return b = new O, a(b), b
+                };
+                try {
+                    w(window.XDomainRequest, O)
+                } catch (d) {}
+            }
+            if (null != N && D.ajax.trackWebSockets) {
+                window.WebSocket = function(a, b) {
+                    var d;
+                    return d = null != b ? new N(a, b) : new N(a), J("socket") && c.trigger("request", {
+                        type: "socket",
+                        url: a,
+                        protocols: b,
+                        request: d
+                    }), d
+                };
+                try {
+                    w(window.WebSocket, N)
+                } catch (d) {}
+            }
+        }
+        return Z(b, a), b
+    }(h), R = null, y = function() {
+        return null == R && (R = new k), R
+    }, I = function(a) {
+        var b, c, d, e;
+        for (e = D.ajax.ignoreURLs, c = 0, d = e.length; d > c; c++)
+            if (b = e[c], "string" == typeof b) {
+                if (-1 !== a.indexOf(b)) return !0
+            } else if (b.test(a)) return !0;
+        return !1
+    }, y().on("request", function(b) {
+        var c, d, e, f, g;
+        return f = b.type, e = b.request, g = b.url, I(g) ? void 0 : j.running || D.restartOnRequestAfter === !1 && "force" !== J(f) ? void 0 : (d = arguments, c = D.restartOnRequestAfter || 0, "boolean" == typeof c && (c = 0), setTimeout(function() {
+            var b, c, g, h, i, k;
+            if (b = "socket" === f ? e.readyState < 2 : 0 < (h = e.readyState) && 4 > h) {
+                for (j.restart(), i = j.sources, k = [], c = 0, g = i.length; g > c; c++) {
+                    if (K = i[c], K instanceof a) {
+                        K.watch.apply(K, d);
+                        break
+                    }
+                    k.push(void 0)
+                }
+                return k
+            }
+        }, c))
+    }), a = function() {
+        function a() {
+            var a = this;
+            this.elements = [], y().on("request", function() {
+                return a.watch.apply(a, arguments)
+            })
+        }
+        return a.prototype.watch = function(a) {
+            var b, c, d, e;
+            return d = a.type, b = a.request, e = a.url, I(e) ? void 0 : (c = "socket" === d ? new n(b) : new o(b), this.elements.push(c))
+        }, a
+    }(), o = function() {
+        function a(a) {
+            var b, c, d, e, f, g, h = this;
+            if (this.progress = 0, null != window.ProgressEvent)
+                for (c = null, a.addEventListener("progress", function(a) {
+                        return h.progress = a.lengthComputable ? 100 * a.loaded / a.total : h.progress + (100 - h.progress) / 2
+                    }, !1), g = ["load", "abort", "timeout", "error"], d = 0, e = g.length; e > d; d++) b = g[d], a.addEventListener(b, function() {
+                    return h.progress = 100
+                }, !1);
+            else f = a.onreadystatechange, a.onreadystatechange = function() {
+                var b;
+                return 0 === (b = a.readyState) || 4 === b ? h.progress = 100 : 3 === a.readyState && (h.progress = 50), "function" == typeof f ? f.apply(null, arguments) : void 0
+            }
+        }
+        return a
+    }(), n = function() {
+        function a(a) {
+            var b, c, d, e, f = this;
+            for (this.progress = 0, e = ["error", "open"], c = 0, d = e.length; d > c; c++) b = e[c], a.addEventListener(b, function() {
+                return f.progress = 100
+            }, !1)
+        }
+        return a
+    }(), d = function() {
+        function a(a) {
+            var b, c, d, f;
+            for (null == a && (a = {}), this.elements = [], null == a.selectors && (a.selectors = []), f = a.selectors, c = 0, d = f.length; d > c; c++) b = f[c], this.elements.push(new e(b))
+        }
+        return a
+    }(), e = function() {
+        function a(a) {
+            this.selector = a, this.progress = 0, this.check()
+        }
+        return a.prototype.check = function() {
+            var a = this;
+            return document.querySelector(this.selector) ? this.done() : setTimeout(function() {
+                return a.check()
+            }, D.elements.checkInterval)
+        }, a.prototype.done = function() {
+            return this.progress = 100
+        }, a
+    }(), c = function() {
+        function a() {
+            var a, b, c = this;
+            this.progress = null != (b = this.states[document.readyState]) ? b : 100, a = document.onreadystatechange, document.onreadystatechange = function() {
+                return null != c.states[document.readyState] && (c.progress = c.states[document.readyState]), "function" == typeof a ? a.apply(null, arguments) : void 0
+            }
+        }
+        return a.prototype.states = {
+            loading: 0,
+            interactive: 50,
+            complete: 100
+        }, a
+    }(), f = function() {
+        function a() {
+            var a, b, c, d, e, f = this;
+            this.progress = 0, a = 0, e = [], d = 0, c = C(), b = setInterval(function() {
+                var g;
+                return g = C() - c - 50, c = C(), e.push(g), e.length > D.eventLag.sampleCount && e.shift(), a = q(e), ++d >= D.eventLag.minSamples && a < D.eventLag.lagThreshold ? (f.progress = 100, clearInterval(b)) : f.progress = 100 * (3 / (a + 3))
+            }, 50)
+        }
+        return a
+    }(), m = function() {
+        function a(a) {
+            this.source = a, this.last = this.sinceLastUpdate = 0, this.rate = D.initialRate, this.catchup = 0, this.progress = this.lastProgress = 0, null != this.source && (this.progress = F(this.source, "progress"))
+        }
+        return a.prototype.tick = function(a, b) {
+            var c;
+            return null == b && (b = F(this.source, "progress")), b >= 100 && (this.done = !0), b === this.last ? this.sinceLastUpdate += a : (this.sinceLastUpdate && (this.rate = (b - this.last) / this.sinceLastUpdate), this.catchup = (b - this.progress) / D.catchupTime, this.sinceLastUpdate = 0, this.last = b), b > this.progress && (this.progress += this.catchup * a), c = 1 - Math.pow(this.progress / 100, D.easeFactor), this.progress += c * this.rate * a, this.progress = Math.min(this.lastProgress + D.maxProgressPerFrame, this.progress), this.progress = Math.max(0, this.progress), this.progress = Math.min(100, this.progress), this.lastProgress = this.progress, this.progress
+        }, a
+    }(), L = null, H = null, r = null, M = null, p = null, s = null, j.running = !1, z = function() {
+        return D.restartOnPushState ? j.restart() : void 0
+    }, null != window.history.pushState && (T = window.history.pushState, window.history.pushState = function() {
+        return z(), T.apply(window.history, arguments)
+    }), null != window.history.replaceState && (W = window.history.replaceState, window.history.replaceState = function() {
+        return z(), W.apply(window.history, arguments)
+    }), l = {
+        ajax: a,
+        elements: d,
+        document: c,
+        eventLag: f
+    }, (B = function() {
+        var a, c, d, e, f, g, h, i;
+        for (j.sources = L = [], g = ["ajax", "elements", "document", "eventLag"], c = 0, e = g.length; e > c; c++) a = g[c], D[a] !== !1 && L.push(new l[a](D[a]));
+        for (i = null != (h = D.extraSources) ? h : [], d = 0, f = i.length; f > d; d++) K = i[d], L.push(new K(D));
+        return j.bar = r = new b, H = [], M = new m
+    })(), j.stop = function() {
+        return j.trigger("stop"), j.running = !1, r.destroy(), s = !0, null != p && ("function" == typeof t && t(p), p = null), B()
+    }, j.restart = function() {
+        return j.trigger("restart"), j.stop(), j.start()
+    }, j.go = function() {
+        var a;
+        return j.running = !0, r.render(), a = C(), s = !1, p = G(function(b, c) {
+            var d, e, f, g, h, i, k, l, n, o, p, q, t, u, v, w;
+            for (l = 100 - r.progress, e = p = 0, f = !0, i = q = 0, u = L.length; u > q; i = ++q)
+                for (K = L[i], o = null != H[i] ? H[i] : H[i] = [], h = null != (w = K.elements) ? w : [K], k = t = 0, v = h.length; v > t; k = ++t) g = h[k], n = null != o[k] ? o[k] : o[k] = new m(g), f &= n.done, n.done || (e++, p += n.tick(b));
+            return d = p / e, r.update(M.tick(b, d)), r.done() || f || s ? (r.update(100), j.trigger("done"), setTimeout(function() {
+                return r.finish(), j.running = !1, j.trigger("hide")
+            }, Math.max(D.ghostTime, Math.max(D.minTime - (C() - a), 0)))) : c()
+        })
+    }, j.start = function(a) {
+        v(D, a), j.running = !0;
+        try {
+            r.render()
+        } catch (b) {
+            i = b
+        }
+        return document.querySelector(".pace") ? (j.trigger("start"), j.go()) : setTimeout(j.start, 50)
+    }, "function" == typeof define && define.amd ? define(function() {
+        return j
+    }) : "object" == typeof exports ? module.exports = j : D.startOnPageLoad && j.start()
+}).call(this);
+</script>
+<style>
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #29d;
+  position: fixed;
+  z-index: 9999999000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 2px;
+}
+</style>
+	
+	</div>
+	</div>
+</div>
+					
+						</div>
+					
+			</div>
+		</div>
+		
+		
+		
+	
+	
+	
+		<div  id="vbid-66c0f-hsagmdgf"  class="master item-box element-box style-66c0f-hxhdnso2       " data-holder-type="element"" data-holder-type="element"  data-child-type="RAW"  data-styleid="style-66c0f-hxhdnso2"  data-preset-type-id="">
+			<div id="" class="stripe-background load-high-res " ></div>
+			<div class="element-wrapper item-wrapper raw-wrapper ">
+					
+						<div class="content">
+					
+					<div class="page-raw-cover dynamic-height" >
+	<div id="vbid-66c0f-hsagmdgf" class="element html-source magic-circle-holder page_share_app page-app" data-menu-name="RAW" data-json-name="HTML_IFRAME" >
+	<div class="raw-container" id="vbid-66c0f-hsagmdgf-raw" data-raw-content-url="/html_src/static-b3c2cbf219fba9e?raw=true&type=page_share_app" data-static="true" >
+	
+		
+<div id="share_buttons"></div>
+
+<script>
+
+//*****
+//Change these params 
+
+var shareButtons = ["facebook", "twitter", "google-plus", "pinterest", "tumblr"]; //twitter,facebook,google-plus,pinterest,tumblr,vk,linkedin,email
+var showShareCounters = true;
+var shareBarPosition = "left";
+var shareButtonsSizes = "medium"; //large, medium, small, extra-small
+
+var shareText =  "Default"; //You can replace the Default with your own text, Default takes the description of the site from the SEO panel
+var shareTitle = "Default"; //You can replace the Default with your own title, Default takes the title of the site from the SEO panel
+var shareURL = "Default"; //You can replace the Default with a any URL, Default takes the sites URL. 
+
+// Also important is to set the SEO for this site, as these are the Default detailes that will appeare in the share.
+// You can do that by selecting: Settings->SEO.
+
+//*****
+
+var share_classes = "ssk-group ssk-sticky ssk-center";
+var share_buttons = "";
+
+for (i in shareButtons) {
+	share_buttons = share_buttons + '<a href="" class="ssk ssk-'+shareButtons[i]+'"></a>';
+}
+
+if(showShareCounters) {
+	share_classes = share_classes + " ssk-count";
+}
+
+share_classes = share_classes + " ssk-" + shareBarPosition;
+
+if(shareButtonsSizes == "large") {
+	share_classes = share_classes + " ssk-lg";
+} else if(shareButtonsSizes == "medium") {
+	share_classes = share_classes + "";
+}else if(shareButtonsSizes == "small") {
+	share_classes = share_classes + " ssk-sm";
+}else if(shareButtonsSizes == "extra-small") {
+	share_classes = share_classes + " ssk-xs";
+}
+
+document.getElementById("share_buttons").className = share_classes;
+document.getElementById("share_buttons").innerHTML = share_buttons;
+
+
+if (shareText != "Default") {
+	document.getElementById("share_buttons").setAttribute("data-text", shareText);
+}
+
+if (shareTitle != "Default") {
+	document.getElementById("share_buttons").setAttribute("data-title", shareTitle);
+}
+
+if (shareURL != "Default") {
+	document.getElementById("share_buttons").setAttribute("data-url", shareURL);
+}
+
+
+
+
+/*!
+ * Social Share Kit v1.0.6 (http://socialsharekit.com)
+ * Copyright 2015 Social Share Kit / Kaspars Sprogis.
+ * Licensed under Creative Commons Attribution-NonCommercial 3.0 license:
+ * https://github.com/darklow/social-share-kit/blob/master/LICENSE
+ * ---
+ */
+var SocialShareKit = (function () {
+    var els, options, supportsShare, urlsToCount = {}, sep = '*|*';
+
+    function init(opts) {
+        options = opts || {};
+        supportsShare = /(twitter|facebook|google-plus|pinterest|tumblr|vk|linkedin|email)/;
+        ready(function () {
+            els = $(options.selector || '.ssk');
+            if (!els.length)
+                return;
+
+            each(els, function (el) {
+                var network = elSupportsShare(el), uniqueKey;
+                if (!network) {
+                    return;
+                }
+                removeEventListener(el, 'click', onClick);
+                addEventListener(el, 'click', onClick);
+
+                // Gather icons with share counts
+                if (el.parentNode.className.indexOf('ssk-count') !== -1) {
+                    //networksToCount.push(network);
+                    network = network[0];
+                    uniqueKey = network + sep + getShareUrl(network, el);
+                    if (!(uniqueKey in urlsToCount)) {
+                        urlsToCount[uniqueKey] = [];
+                    }
+                    urlsToCount[uniqueKey].push(el);
+                }
+            });
+
+            processShareCount();
+        });
+    }
+
+    function ready(fn) {
+        if (document.readyState != 'loading') {
+            fn();
+        } else if (document.addEventListener) {
+            document.addEventListener('DOMContentLoaded', fn);
+        } else {
+            document.attachEvent('onreadystatechange', function () {
+                if (document.readyState != 'loading')
+                    fn();
+            });
+        }
+    }
+
+    function $(selector) {
+        return document.querySelectorAll(selector);
+    }
+
+    function each(elements, fn) {
+        for (var i = 0; i < elements.length; i++)
+            fn(elements[i], i);
+    }
+
+    function addEventListener(el, eventName, handler) {
+        if (el.addEventListener) {
+            el.addEventListener(eventName, handler);
+        } else {
+            el.attachEvent('on' + eventName, function () {
+                handler.call(el);
+            });
+        }
+    }
+
+    function removeEventListener(el, eventName, handler) {
+        if (el.removeEventListener)
+            el.removeEventListener(eventName, handler);
+        else
+            el.detachEvent('on' + eventName, handler);
+    }
+
+    function elSupportsShare(el) {
+        return el.className.match(supportsShare);
+    }
+
+    function onClick(e) {
+        var target = preventDefault(e),
+            match = elSupportsShare(target), url;
+        if (!match)
+            return;
+
+        url = getUrl(match[0], target);
+        if (!url)
+            return;
+        if (match[0] != 'email') {
+            winOpen(url);
+        } else {
+            document.location = url;
+        }
+    }
+
+    function preventDefault(e) {
+        var evt = e || window.event; // IE8 compatibility
+        if (evt.preventDefault) {
+            evt.preventDefault();
+        } else {
+            evt.returnValue = false;
+            evt.cancelBubble = true;
+        }
+        return evt.currentTarget || evt.srcElement;
+    }
+
+    function winOpen(url) {
+        var width = 575, height = 400,
+            left = (document.documentElement.clientWidth / 2 - width / 2),
+            top = (document.documentElement.clientHeight - height) / 2,
+            opts = 'status=1,resizable=yes' +
+                ',width=' + width + ',height=' + height +
+                ',top=' + top + ',left=' + left;
+        win = window.open(url, '', opts);
+        win.focus();
+        return win;
+    }
+
+    function getUrl(network, el) {
+        var url, dataOpts = getDataOpts(network, el),
+            shareUrl = getShareUrl(network, el, dataOpts),
+            shareUrlEnc = encodeURIComponent(shareUrl),
+            title = typeof dataOpts['title'] !== 'undefined' ? dataOpts['title'] : getTitle(network),
+            text = typeof dataOpts['text'] !== 'undefined' ? dataOpts['text'] : getText(network),
+            image = dataOpts['image'], via = dataOpts['via'];
+        switch (network) {
+            case 'facebook':
+                url = 'https://www.facebook.com/share.php?u=' + shareUrlEnc;
+                break;
+            case 'twitter':
+                url = 'https://twitter.com/share?url=' + shareUrlEnc +
+                '&text=' + encodeURIComponent(title + (text && title ? ' - ' : '') + text);
+                via = via || getMetaContent('twitter:site');
+                if (via)
+                    url += '&via=' + via.replace('@', '');
+                break;
+            case 'google-plus':
+                url = 'https://plus.google.com/share?url=' + shareUrlEnc;
+                break;
+            case 'pinterest':
+                url = 'https://pinterest.com/pin/create/button/?url=' + shareUrlEnc +
+                '&description=' + encodeURIComponent(text);
+                image = image || getMetaContent('og:image');
+                if (image)
+                    url += '&media=' + encodeURIComponent(image);
+                break;
+            case 'tumblr':
+                url = 'https://www.tumblr.com/share/link?url=' + shareUrlEnc +
+                '&name=' + encodeURIComponent(title) +
+                '&description=' + encodeURIComponent(text);
+                break;
+            case 'linkedin':
+                url = 'https://www.linkedin.com/shareArticle?mini=true&url=' + shareUrlEnc +
+                '&title=' + encodeURIComponent(title) +
+                '&summary=' + encodeURIComponent(text);
+                break;
+            case 'vk':
+                url = 'https://vkontakte.ru/share.php?url=' + shareUrlEnc;
+                break;
+            case 'email':
+                url = 'mailto:?subject=' + encodeURIComponent(title) +
+                '&body=' + encodeURIComponent(title + '\n' + shareUrl + '\n\n' + text + '\n');
+                break;
+        }
+        return url;
+    }
+
+    function getShareUrl(network, el, dataOpts) {
+        dataOpts = dataOpts || getDataOpts(network, el);
+        return dataOpts['url'] || window.location.href;
+    }
+
+    function getTitle(network) {
+        var title;
+        if (network == 'twitter')
+            title = getMetaContent('twitter:title');
+        return title || document.title;
+    }
+
+    function getText(network) {
+        var text;
+        if (network == 'twitter')
+            text = getMetaContent('twitter:description');
+        return text || getMetaContent('description');
+    }
+
+    function getMetaContent(tagName, attr) {
+        var text, tag = $('meta[' + (attr ? attr : tagName.indexOf('og:') === 0 ? 'property' : 'name') + '="' + tagName + '"]');
+        if (tag.length) {
+            text = tag[0].getAttribute('content') || '';
+        }
+        return text || ''
+    }
+
+    function getDataOpts(network, el) {
+        var validOpts = ['url', 'title', 'text', 'image'],
+            opts = {}, optValue, optKey, dataKey, a, parent = el.parentNode;
+        network == 'twitter' && validOpts.push('via');
+        for (a in validOpts) {
+            optKey = validOpts[a];
+            dataKey = 'data-' + optKey;
+            optValue = el.getAttribute(dataKey) || parent.getAttribute(dataKey) ||
+            (options[network] && typeof options[network][optKey] != 'undefined' ? options[network][optKey] : options[optKey]);
+            if (typeof optValue != 'undefined') {
+                opts[optKey] = optValue;
+            }
+        }
+        return opts;
+    }
+
+    function processShareCount() {
+        var a, ref;
+        for (a in urlsToCount) {
+            ref = a.split(sep);
+            (function (els) {
+                getCount(ref[0], ref[1], function (cnt) {
+                    for (var c in els)
+                        addCount(els[c], cnt);
+                });
+            })(urlsToCount[a]);
+        }
+    }
+
+    function addCount(el, cnt) {
+        var newEl = document.createElement('div');
+        newEl.innerHTML = cnt;
+        newEl.className = 'ssk-num';
+        el.appendChild(newEl);
+    }
+
+    function getCount(network, shareUrl, onReady) {
+        var url, parseFunc, body,
+            shareUrlEnc = encodeURIComponent(shareUrl);
+        switch (network) {
+            case 'facebook':
+                url = 'https://graph.facebook.com/?id=' + shareUrlEnc;
+                parseFunc = function (r) {
+                    return onReady(r.shares ? r.shares : 0);
+                };
+                break;
+            case 'twitter':
+                url = 'https://cdn.api.twitter.com/1/urls/count.json?url=' + shareUrlEnc;
+                parseFunc = function (r) {
+                    return onReady(r.count);
+                };
+                break;
+            case 'google-plus':
+                url = 'https://clients6.google.com/rpc?key=AIzaSyCKSbrvQasunBoV16zDH9R33D88CeLr9gQ';
+                body = "[{\"method\":\"pos.plusones.get\",\"id\":\"p\"," +
+                "\"params\":{\"id\":\"" + shareUrl + "\",\"userId\":\"@viewer\",\"groupId\":\"@self\",\"nolog\":true}," +
+                "\"jsonrpc\":\"2.0\",\"key\":\"p\",\"apiVersion\":\"v1\"}]";
+                parseFunc = function (r) {
+                    r = JSON.parse(r);
+                    if (r.length) {
+                        return onReady(r[0].result.metadata.globalCounts.count);
+                    }
+                };
+                ajax(url, parseFunc, body);
+                return;
+            case 'linkedin':
+                url = 'https://www.linkedin.com/countserv/count/share?url=' + shareUrlEnc;
+                parseFunc = function (r) {
+                    return onReady(r.count);
+                };
+                break;
+            case 'pinterest':
+                url = 'https://api.pinterest.com/v1/urls/count.json?url=' + shareUrlEnc;
+                parseFunc = function (r) {
+                    return onReady(r.count);
+                };
+                break;
+            case 'vk':
+                url = 'https://vk.com/share.php?act=count&url=' + shareUrlEnc;
+                parseFunc = function (r) {
+                    return onReady(r);
+                };
+                break;
+        }
+        url && parseFunc && JSONPRequest(network, url, parseFunc, body);
+    }
+
+    function ajax(url, callback, body) {
+        var request = new XMLHttpRequest();
+        request.onreadystatechange = function () {
+            if (this.readyState === 4) {
+                if (this.status >= 200 && this.status < 400) {
+                    callback(this.responseText);
+                }
+            }
+        };
+        request.open('POST', url, true);
+        request.setRequestHeader('Content-Type', 'application/json');
+        request.send(body);
+    }
+
+    function JSONPRequest(network, url, callback) {
+        var callbackName = 'cb_' + network + '_' + Math.round(100000 * Math.random()),
+            script = document.createElement('script');
+        window[callbackName] = function (data) {
+            try { // IE8
+                delete window[callbackName];
+            } catch (e) {
+            }
+            document.body.removeChild(script);
+            callback(data);
+        };
+        if (network == 'vk') {
+            window['VK'] = {
+                Share: {
+                    count: function (a, b) {
+                        window[callbackName](b);
+                    }
+                }
+            };
+        } else if (network == 'google-plus') {
+            window['services'] = {
+                gplus: {
+                    cb: window[callbackName]
+                }
+            };
+        }
+        script.src = url + (url.indexOf('?') >= 0 ? '&' : '?') + 'callback=' + callbackName;
+        document.body.appendChild(script);
+        return true;
+    }
+
+    return {
+        init: init
+    };
+})();
+
+window.SocialShareKit = SocialShareKit;
+SocialShareKit.init();
+</script>
+
+<style>
+/*!
+ * Social Share Kit v1.0.3 (http://socialsharekit.com)
+ * Copyright 2015 Social Share Kit / Kaspars Sprogis.
+ * Licensed under Creative Commons Attribution-NonCommercial 3.0 license:
+ * https://github.com/darklow/social-share-kit/blob/master/LICENSE
+ * ---
+ */@font-face{font-family:'social-share-kit';src:url('https://xprs.imcreator.com/fonts/social-share-kit.eot');src:url('https://xprs.imcreator.com/fonts/social-share-kit.eot?#iefix') format('embedded-opentype'),url('https://xprs.imcreator.com/fonts/social-share-kit.woff') format('woff'),url('https://xprs.imcreator.com/fonts/social-share-kit.ttf') format('truetype'),url('https://xprs.imcreator.com/fonts/social-share-kit.svg#social-share-kit') format('svg');font-weight:normal;font-style:normal}.ssk:before{display:inline-block;font-family:"social-share-kit" !important;font-style:normal !important;font-weight:normal !important;font-variant:normal !important;text-transform:none !important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.ssk-facebook:before{content:"a";text-indent:4px;margin-right:-4px}.ssk-twitter:before{content:"b"}.ssk-google-plus:before{content:"c"}.ssk-email:before{content:"d";top:-1px;position:relative}.ssk-pinterest:before{content:"e"}.ssk-tumblr:before{content:"f"}.ssk-linkedin:before{content:"g"}.ssk-github:before{content:"h"}.ssk-vk:before{content:"i"}.ssk-instagram:before{content:"j"}.ssk-amazon:before{content:"k"}.ssk-skype:before{content:"s"}.ssk-youtube:before{content:"x"}.ssk-vimeo:before{content:"u"}.ssk-ebay:before{content:"p"}.ssk-apple:before{content:"l"}.ssk-behance:before{content:"q"}.ssk-dribble:before{content:"n"}.ssk-android:before{content:"o"}.ssk-whatsapp:before{content:"m"}.ssk-reddit:before{content:"r"}.ssk-reddit2:before{content:"t"}.ssk{background-color:#757575;color:white;display:inline-block;font-size:22px;line-height:1px;margin-right:2px;margin-bottom:2px;padding:7px;text-align:center;text-decoration:none;transition:background-color .1s;-webkit-transition:background-color .1s;-moz-transition:background-color .1s;-ms-transition:background-color .1s;-o-transition:background-color .1s}.ssk:before,.ssk .glyphicon,.ssk .fa{position:relative;font-size:22px;top:0;vertical-align:middle}.ssk.ssk-xs,.ssk-xs>.ssk{padding:4px}.ssk.ssk-xs:before,.ssk-xs>.ssk:before,.ssk.ssk-xs .glyphicon,.ssk-xs>.ssk .glyphicon,.ssk.ssk-xs .fa,.ssk-xs>.ssk .fa{font-size:15px}.ssk.ssk-sm,.ssk-sm>.ssk{padding:5px}.ssk.ssk-sm:before,.ssk-sm>.ssk:before,.ssk.ssk-sm .glyphicon,.ssk-sm>.ssk .glyphicon,.ssk.ssk-sm .fa,.ssk-sm>.ssk .fa{font-size:20px}.ssk.ssk-lg,.ssk-lg>.ssk{padding:9px}.ssk.ssk-lg:before,.ssk-lg>.ssk:before,.ssk.ssk-lg .glyphicon,.ssk-lg>.ssk .glyphicon,.ssk.ssk-lg .fa,.ssk-lg>.ssk .fa{font-size:28px}.ssk:last-child{margin-right:0}.ssk:hover{background-color:#424242}.ssk:hover,.ssk:focus{color:#fff;text-decoration:none}.ssk.ssk-round,.ssk-round .ssk{border-radius:50%}.ssk.ssk-round:before,.ssk-round .ssk:before{text-indent:0;margin-right:0}.ssk.ssk-rounded,.ssk-rounded .ssk{border-radius:15%}.ssk.ssk-icon{color:#757575;padding:2px;font-size:24px}.ssk.ssk-icon,.ssk.ssk-icon:hover{background-color:transparent}.ssk.ssk-icon:hover{color:#424242}.ssk.ssk-icon.ssk-xs,.ssk-xs>.ssk.ssk-icon{font-size:16px}.ssk.ssk-icon.ssk-sm,.ssk-sm>.ssk.ssk-icon{font-size:20px}.ssk.ssk-icon.ssk-lg,.ssk-lg>.ssk.ssk-icon{font-size:28px}.ssk.ssk-text{overflow:hidden;font-size:17px;line-height:normal;padding-right:10px}.ssk.ssk-text:before,.ssk.ssk-text .glyphicon,.ssk.ssk-text .fa{margin:-7px 10px -7px -7px;padding:7px;background-color:rgba(0,0,0,0.15);vertical-align:bottom;text-indent:0}.ssk-block .ssk.ssk-text{display:block;margin-right:0;text-align:left}.ssk.ssk-text.ssk-xs,.ssk-xs>.ssk.ssk-text{font-size:12px;padding-right:6px}.ssk.ssk-text.ssk-xs:before,.ssk-xs>.ssk.ssk-text:before,.ssk.ssk-text.ssk-xs .glyphicon,.ssk-xs>.ssk.ssk-text .glyphicon,.ssk.ssk-text.ssk-xs .fa,.ssk-xs>.ssk.ssk-text .fa{margin:-4px 6px -4px -4px;padding:4px}.ssk.ssk-text.ssk-sm,.ssk-sm>.ssk.ssk-text{font-size:16px;padding-right:7px}.ssk.ssk-text.ssk-sm:before,.ssk-sm>.ssk.ssk-text:before,.ssk.ssk-text.ssk-sm .glyphicon,.ssk-sm>.ssk.ssk-text .glyphicon,.ssk.ssk-text.ssk-sm .fa,.ssk-sm>.ssk.ssk-text .fa{margin:-5px 7px -5px -5px;padding:5px}.ssk.ssk-text.ssk-lg,.ssk-lg>.ssk.ssk-text{font-size:22px;padding-right:13px}.ssk.ssk-text.ssk-lg:before,.ssk-lg>.ssk.ssk-text:before,.ssk.ssk-text.ssk-lg .glyphicon,.ssk-lg>.ssk.ssk-text .glyphicon,.ssk.ssk-text.ssk-lg .fa,.ssk-lg>.ssk.ssk-text .fa{margin:-9px 13px -9px -9px;padding:9px}.ssk-group,.ssk-sticky{font-size:0}.ssk-sticky{top:0;position:fixed;z-index:2000}.ssk-sticky .ssk{transition:padding .1s ease-out;-webkit-transition:padding .1s ease-out;-moz-transition:padding .1s ease-out;-ms-transition:padding .1s ease-out;-o-transition:padding .1s ease-out;margin:0}.ssk-sticky.ssk-left .ssk,.ssk-sticky.ssk-right .ssk{display:block;clear:both}.ssk-sticky.ssk-left.ssk-center,.ssk-sticky.ssk-right.ssk-center{top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%)}.ssk-sticky.ssk-left{left:0}.ssk-sticky.ssk-left .ssk{float:left}.ssk-sticky.ssk-left .ssk:hover{padding-left:15px}.ssk-sticky.ssk-right{right:0}.ssk-sticky.ssk-right .ssk{float:right}.ssk-sticky.ssk-right .ssk:hover{padding-right:15px}.ssk-sticky.ssk-bottom{font-size:0;top:auto;bottom:0}.ssk-sticky.ssk-bottom.ssk-center{left:50%;right:auto;transform:translateX(-50%);-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-o-transform:translateX(-50%)}.ssk-sticky.ssk-bottom .ssk{vertical-align:bottom}.ssk-sticky.ssk-bottom .ssk:hover{padding-bottom:15px}.ssk-sticky.ssk-round.ssk-xs .ssk:hover{padding:8px}.ssk-sticky.ssk-round.ssk-sm .ssk:hover{padding:9px}.ssk-sticky.ssk-round .ssk:hover{padding:11px}.ssk-sticky.ssk-round.ssk-lg .ssk:hover{padding:13px}@media (max-width:767px){.ssk-sticky{display:none}}.ssk-count{padding-top:20px}.ssk-count .ssk{position:relative}.ssk-count .ssk-num{border-radius:4px;color:#8f8f8f;background-color:rgba(50,50,50,0.03);display:block;font-size:12px;left:0;line-height:20px;position:absolute;right:0;text-align:center;top:-20px}.ssk-count.ssk-sticky{padding-top:0}.ssk-count.ssk-sticky.ssk-left .ssk-num,.ssk-count.ssk-sticky.ssk-right .ssk-num{top:20%;background-color:transparent}.ssk-count.ssk-sticky.ssk-left .ssk-num{left:100%;margin-left:5px}.ssk-count.ssk-sticky.ssk-right .ssk-num{right:115%;margin-left:-100%;text-align:right}.ssk-facebook{background-color:#255c95}.ssk-grayscale>.ssk-facebook{background-color:#757575}.ssk-facebook:hover{background-color:#1b436c}.ssk-facebook:hover{background-color:#1b436c}.ssk-grayscale>.ssk-facebook:hover{background-color:#255c95}.ssk-facebook.ssk-icon{color:#255c95}.ssk-facebook.ssk-icon:hover{color:#1b436c}.ssk-facebook.ssk-icon:before{text-indent:0;margin-right:0}.ssk-twitter{background-color:#00b4e0}.ssk-grayscale>.ssk-twitter{background-color:#757575}.ssk-twitter:hover{background-color:#008bad}.ssk-twitter:hover{background-color:#008bad}.ssk-grayscale>.ssk-twitter:hover{background-color:#00b4e0}.ssk-twitter.ssk-icon{color:#00b4e0}.ssk-twitter.ssk-icon:hover{color:#008bad}.ssk-google-plus{background-color:#f1403a}.ssk-grayscale>.ssk-google-plus{background-color:#757575}.ssk-google-plus:hover{background-color:#e81810}.ssk-google-plus:hover{background-color:#e81810}.ssk-grayscale>.ssk-google-plus:hover{background-color:#f1403a}.ssk-google-plus.ssk-icon{color:#f1403a}.ssk-google-plus.ssk-icon:hover{color:#e81810}.ssk-pinterest{background-color:#cb2027}.ssk-grayscale>.ssk-pinterest{background-color:#757575}.ssk-pinterest:hover{background-color:#9f191f}.ssk-pinterest:hover{background-color:#9f191f}.ssk-grayscale>.ssk-pinterest:hover{background-color:#cb2027}.ssk-pinterest.ssk-icon{color:#cb2027}.ssk-pinterest.ssk-icon:hover{color:#9f191f}.ssk-tumblr{background-color:#395773}.ssk-grayscale>.ssk-tumblr{background-color:#757575}.ssk-tumblr:hover{background-color:#283d51}.ssk-tumblr:hover{background-color:#283d51}.ssk-grayscale>.ssk-tumblr:hover{background-color:#395773}.ssk-tumblr.ssk-icon{color:#395773}.ssk-tumblr.ssk-icon:hover{color:#283d51}.ssk-email{background-color:#757575}.ssk-grayscale>.ssk-email{background-color:#757575}.ssk-email:hover{background-color:#5b5b5b}.ssk-email:hover{background-color:#5b5b5b}.ssk-grayscale>.ssk-email:hover{background-color:#757575}.ssk-grayscale>.ssk-email:hover{background-color:#5b5b5b}.ssk-email.ssk-icon{color:#757575}.ssk-email.ssk-icon:hover{color:#5b5b5b}.ssk-vk{background-color:#54769a}.ssk-grayscale>.ssk-vk{background-color:#757575}.ssk-vk:hover{background-color:#425d79}.ssk-vk:hover{background-color:#425d79}.ssk-grayscale>.ssk-vk:hover{background-color:#54769a}.ssk-vk.ssk-icon{color:#54769a}.ssk-vk.ssk-icon:hover{color:#425d79}.ssk-linkedin{background-color:#1c87bd}.ssk-grayscale>.ssk-linkedin{background-color:#757575}.ssk-linkedin:hover{background-color:#156791}.ssk-linkedin:hover{background-color:#156791}.ssk-grayscale>.ssk-linkedin:hover{background-color:#1c87bd}.ssk-linkedin.ssk-icon{color:#1c87bd}.ssk-linkedin.ssk-icon:hover{color:#156791}.ssk-whatsapp{background-color:#34af23}.ssk-grayscale>.ssk-whatsapp{background-color:#757575}.ssk-whatsapp:hover{background-color:#27851a}.ssk-whatsapp:hover{background-color:#27851a}.ssk-grayscale>.ssk-whatsapp:hover{background-color:#34af23}.ssk-whatsapp.ssk-icon{color:#34af23}.ssk-whatsapp.ssk-icon:hover{color:#27851a}.ssk-reddit{background-color:#5f99cf}.ssk-grayscale>.ssk-reddit{background-color:#757575}.ssk-reddit:hover{background-color:#3a80c1}.ssk-reddit:hover{background-color:#3a80c1}.ssk-grayscale>.ssk-reddit:hover{background-color:#5f99cf}.ssk-reddit.ssk-icon{color:#5f99cf}.ssk-reddit.ssk-icon:hover{color:#3a80c1}.ssk-reddit2{background-color:#5f99cf}.ssk-grayscale>.ssk-reddit2{background-color:#757575}.ssk-reddit2:hover{background-color:#3a80c1}.ssk-reddit2:hover{background-color:#3a80c1}.ssk-grayscale>.ssk-reddit2:hover{background-color:#5f99cf}.ssk-reddit2.ssk-icon{color:#5f99cf}.ssk-reddit2.ssk-icon:hover{color:#3a80c1}.ssk-turquoise{background-color:#1abc9c}.ssk-turquoise:hover{background-color:#148f77}.ssk-emerald{background-color:#2ecc71}.ssk-emerald:hover{background-color:#25a25a}.ssk-peter-river{background-color:#3498db}.ssk-peter-river:hover{background-color:#217dbb}.ssk-belize-hole{background-color:#2980b9}.ssk-belize-hole:hover{background-color:#20638f}.ssk-amethyst{background-color:#9b59b6}.ssk-amethyst:hover{background-color:#804399}.ssk-wisteria{background-color:#8e44ad}.ssk-wisteria:hover{background-color:#703688}.ssk-wet-asphalt{background-color:#34495e}.ssk-wet-asphalt:hover{background-color:#222f3d}.ssk-midnight-blue{background-color:#2c3e50}.ssk-midnight-blue:hover{background-color:#1a242f}.ssk-green-sea{background-color:#16a085}.ssk-green-sea:hover{background-color:#107360}.ssk-nephritis{background-color:#27ae60}.ssk-nephritis:hover{background-color:#1e8449}.ssk-sunflower{background-color:#f1c40f}.ssk-sunflower:hover{background-color:#c29d0b}.ssk-orange{background-color:#f39c12}.ssk-orange:hover{background-color:#c87f0a}.ssk-carrot{background-color:#e67e22}.ssk-carrot:hover{background-color:#bf6516}.ssk-pumpkin{background-color:#d35400}.ssk-pumpkin:hover{background-color:#a04000}.ssk-alizarin{background-color:#e74c3c}.ssk-alizarin:hover{background-color:#d62c1a}.ssk-pomegranate{background-color:#c0392b}.ssk-pomegranate:hover{background-color:#962d22}.ssk-clouds{background-color:#cfd9db}.ssk-clouds:hover{background-color:#b1c2c6}.ssk-concrete{background-color:#95a5a6}.ssk-concrete:hover{background-color:#798d8f}.ssk-silver{background-color:#bdc3c7}.ssk-silver:hover{background-color:#a1aab0}.ssk-asbestos{background-color:#7f8c8d}.ssk-asbestos:hover{background-color:#667273}.ssk-dark-gray{background-color:#555}.ssk-dark-gray:hover{background-color:#3b3b3b}.ssk-black{background-color:#333}.ssk-black:hover{background-color:#1a1a1a}
+</style>
+
+
+	
+	</div>
+	</div>
+</div>
+					
+						</div>
+					
+			</div>
+		</div>
+		
+		
+		
+	
+	
+	
+		<div  id="vbid-66c0f-5o5emn8e"  class="master item-box element-box style-66c0f-hxhdnso2       " data-holder-type="element"" data-holder-type="element"  data-child-type="RAW"  data-styleid="style-66c0f-hxhdnso2"  data-preset-type-id="">
+			<div id="" class="stripe-background load-high-res " ></div>
+			<div class="element-wrapper item-wrapper raw-wrapper ">
+					
+						<div class="content">
+					
+					<div class="page-raw-cover dynamic-height" >
+	<div id="vbid-66c0f-5o5emn8e" class="element html-source magic-circle-holder page_feedback_app page-app" data-menu-name="RAW" data-json-name="HTML_IFRAME" >
+	<div class="raw-container" id="vbid-66c0f-5o5emn8e-raw" data-raw-content-url="/html_src/static-e0ee43af26e2c9b?raw=true&type=page_feedback_app" data-static="true" >
+	
+		<script>(function(){
+
+  	//*****
+  	//Change these params 
+    INSTALL_OPTIONS = {
+      "email": "boaz@imcreator.com", // fill in when testing
+      "feedbackButtonText": "Feedback",
+      "location": "right-edge",
+      "headerText": "Share feedback",
+      "bodyText": "How do you feel about this page?",
+      "successText": "Thanks for sharing that feedback! :)",
+      "color": "#0099ff",
+      "feedbackPlaceholders": {
+        "negative": "Oh no! We’re so sorry. How can we help?",
+        "neutral": "Hmm, how odd. Tell us more...",
+        "positive": "Woohoo, thanks! So, what went well?"
+      }};
+  	//*****
+  	
+  if (!window.addEventListener || !document.documentElement.setAttribute || !document.querySelector || !document.documentElement.classList || !document.documentElement.classList.add) {
+      console.log("not modernized?");
+	  return;
+  }
+  var options, isPreview, locationsCSSMap, style, button, el, getRadiosValue, form, show, hide, toggle, textarea, setOptions, updatePlaceholder;
+
+  options = INSTALL_OPTIONS;
+  isPreview = false;
+
+  if (!isPreview && !options.email) {
+	console.log("not preview/email?");
+    return;
+  }
+
+  style = document.createElement('style');
+
+  var writeColor = function(){
+    style.innerHTML = '' +
+    ' input#xprs-feedback-app-negative:checked ~ .xprs-feedback-app-field-smileys > label[for="xprs-feedback-app-negative"],' +
+    ' input#xprs-feedback-app-neutral:checked ~ .xprs-feedback-app-field-smileys > label[for="xprs-feedback-app-neutral"],' +
+    ' input#xprs-feedback-app-positive:checked ~ .xprs-feedback-app-field-smileys > label[for="xprs-feedback-app-positive"] {' +
+    '   background: transparent !important;' +
+    '   transition: box-shadow .15s ease !important;' +
+    '   box-shadow: inset 0 0 0 .06em ' + options.color + ' !important' +
+    ' }' +
+    ' .xprs-feedback-app .xprs-feedback-app-button, button.xprs-feedback-app-feedback-button {' +
+    '   background: ' + options.color + ' !important' +
+    ' }' +
+    ' .xprs-feedback-app .xprs-feedback-app-input:focus {' +
+    '   border-color: ' + options.color + ' !important;' +
+    '   box-shadow: 0 0 1px ' + options.color + ' !important' +
+    ' }' +
+    '';
+  }
+
+  button = document.createElement('button');
+  button.addEventListener('touchstart', function(){}, false); // iOS :hover CSS hack
+  button.className = 'xprs-feedback-app-feedback-button';
+
+  el = document.createElement('xprs-feedback-app');
+  el.addEventListener('touchstart', function(){}, false); // iOS :hover CSS hack
+  el.className = 'xprs-feedback-app';
+  el.innerHTML = '' +
+   '<div class="xprs-feedback-app-content">' +
+     '<div class="xprs-feedback-app-header"></div>' +
+     '<div class="xprs-feedback-app-body"></div>' +
+     '<form class="xprs-feedback-app-form">' +
+       '<input required type="radio" name="xprs-feedback-app-smileys-radio" value="negative" id="xprs-feedback-app-negative">' +
+       '<input required type="radio" name="xprs-feedback-app-smileys-radio" value="neutral" id="xprs-feedback-app-neutral">' +
+       '<input required type="radio" name="xprs-feedback-app-smileys-radio" value="positive" id="xprs-feedback-app-positive">' +
+       '<div class="xprs-feedback-app-field-smileys">' +
+         '<label class="xprs-feedback-app-icon xprs-feedback-app-icon-negative" for="xprs-feedback-app-negative"></label>' +
+         '<label class="xprs-feedback-app-icon xprs-feedback-app-icon-neutral" for="xprs-feedback-app-neutral"></label>' +
+         '<label class="xprs-feedback-app-icon xprs-feedback-app-icon-positive" for="xprs-feedback-app-positive"></label>' +
+       '</div>' +
+       '<div class="xprs-feedback-app-field-feedback">' +
+         '<textarea class="xprs-feedback-app-input" minlength="10" name="message" rows="3" spellcheck="false" placeholder="Tell us more..." required></textarea>' +
+         '<div class="xprs-feedback-app-field-email">' +
+          '<div class="xprs-feedback-app-field-email-input-wrapper">' +
+             '<input name="email" class="xprs-feedback-app-input" type="email" placeholder="Email address" spellcheck="false" required>' +
+             '<button type="submit" class="xprs-feedback-app-button">➔</button>' +
+          '</div>' +
+         '</div>' +
+       '</div>' +
+     '</form>' +
+   '</div>' +
+   //'<div class="xprs-feedback-app-branding">' +
+   //  '<a class="xprs-feedback-app-branding-link" href="https://xprs.io?utm_source=xprs_feedback_app_powered_by_link" target="_blank">Powered by xprs</a>' +
+   //'</div>' +
+  '';
+
+  textarea = el.querySelector('textarea');
+
+  getRadiosValue = function() {
+    var i, radios, length;
+
+    radios = el.querySelectorAll('[name="xprs-feedback-app-smileys-radio"]');
+
+    for (i = 0, length = radios.length; i < length; i++) {
+      if (radios[i].checked) {
+        return radios[i].value;
+      }
+    }
+  };
+
+  updatePlaceholder = function() {
+    var radiosValue;
+
+    radiosValue = getRadiosValue();
+    if (radiosValue && options.feedbackPlaceholders[radiosValue]) {
+      textarea.setAttribute('placeholder', options.feedbackPlaceholders[radiosValue]);
+    }
+  }
+
+  setOptions = function (opts) {
+    options = opts;
+
+    button.innerHTML = options.feedbackButtonText;
+    button.setAttribute('data-location', options.location);
+
+    el.querySelector('.xprs-feedback-app-header').innerHTML = options.headerText;
+    el.querySelector('.xprs-feedback-app-body').innerHTML = options.bodyText;
+
+    writeColor();
+
+    updatePlaceholder();
+  }
+
+  setOptions(options);
+
+  (function() {
+    var radios, firstTime, onRadiosChange;
+
+    radios = el.querySelectorAll('[name="xprs-feedback-app-smileys-radio"]');
+    firstTime = true;
+
+    onRadiosChange = function() {
+      updatePlaceholder();
+
+      setTimeout(function(){
+        textarea.focus();
+      }, firstTime ? 500 : 0);
+
+      if (firstTime) {
+        firstTime = false;
+      }
+    };
+
+    Array.prototype.forEach.call(radios, function(radio){
+      radio.addEventListener('input', onRadiosChange);
+      radio.addEventListener('change', onRadiosChange);
+    });
+  })();
+
+  form = el.querySelector('.xprs-feedback-app-form');
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    var body, button, url, xhr, callback, params;
+
+    body = el.querySelector('.xprs-feedback-app-body');
+    button = el.querySelector('button[type="submit"]');
+    button.setAttribute('disabled', 'disabled');
+
+    
+	var submitParams = {};
+	var siteName = $("#xprs").attr("data-website-name");
+	submitParams["xprs_mail_to"] = options.email;
+	submitParams["xprs_site_name"] = siteName;
+	submitParams["feedback"] = getRadiosValue();
+	submitParams["message"] = form.querySelector('textarea').value;
+	var typedEmail = form.querySelector('input[type="email"]').value;
+	submitParams["email"] = typedEmail;
+
+	if (typedEmail === "") {
+		swal.showInputError("Not a valid email address!");
+        return false;
+	}
+
+	var resolvedHost = location.host;
+	//This is a live site
+	if (resolvedHost.indexOf("appspot") == -1 && resolvedHost.indexOf("localhost") == -1){
+		resolvedHost = "www.imxprs.com";
+	}
+	console.log(resolvedHost);
+	XPRSHelper.POST(XPRSHelper.getParentWindow().location.protocol+'//'+  resolvedHost + "/form_submit", submitParams, function(){
+		console.log("DONE!");
+		body.innerHTML = options.successText;
+		form.parentNode.removeChild(form);
+		setTimeout(hide, 3000);	
+	});
+    
+    
+    
+  });
+
+  show = function() {
+    el.classList.add('xprs-feedback-app-show');
+    el.classList.remove('xprs-feedback-app-hide');
+  };
+
+  hide = function() {
+    if (el.classList.contains('xprs-feedback-app-show')) {
+      el.classList.add('xprs-feedback-app-hide');
+      el.classList.remove('xprs-feedback-app-show');
+    }
+  };
+
+  toggle = function() {
+    if (el.classList.contains('xprs-feedback-app-show')) {
+      hide();
+    } else {
+      show();
+    }
+  };
+  button.addEventListener('click', toggle);
+
+  if (isPreview) {
+    show();
+  }
+  	  
+  addFeedback = function(e) {
+	    document.body.appendChild(style);
+	    document.body.appendChild(el);
+	    document.body.appendChild(button);
+	
+	    document.body.addEventListener('click', function(event) {
+	      if (!event || !event.target) {
+	        return;
+	      }
+	
+	      if (event.target === el || el.contains(event.target) || event.target === button || button.contains(event.target)) {
+	        return;
+	      }
+	
+	      hide();
+	    });
+	    if(e == "xprs-app-loaded") {
+	    	document.removeEventListener("xprs-app-loaded", addFeedback);
+	    }
+  };
+  
+
+  ('DOMContentLoaded xprs-app-loaded'.split(" ")).forEach(function(e){
+	  document.addEventListener(e, addFeedback(e));
+  });
+
+  window.xprsFeedbackApp = {
+    show: show,
+    hide: hide,
+    toggle: toggle,
+    setOptions: setOptions
+  };
+
+})();</script>
+
+<style>
+@font-face {
+  font-family: "xprs-feedback-app-icons";
+  font-style: normal;
+  font-weight: normal;
+  src: url(data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAcAAAsAAAAABrQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgDxICrGNtYXAAAAFoAAAAVAAAAFQaVsyJZ2FzcAAAAbwAAAAIAAAACAAAABBnbHlmAAABxAAAAuwAAALsxLR2nGhlYWQAAASwAAAANgAAADYG/mbtaGhlYQAABOgAAAAkAAAAJAfCA8hobXR4AAAFDAAAABwAAAAcEgAAAGxvY2EAAAUoAAAAEAAAABABOAIibWF4cAAABTgAAAAgAAAAIAANAFtuYW1lAAAFWAAAAYYAAAGGmUoJ+3Bvc3QAAAbgAAAAIAAAACAAAwAAAAMDgAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAA5gIDwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADgAAAAKAAgAAgACAAEAIOYC//3//wAAAAAAIOYA//3//wAB/+MaBAADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAABQAA/8AEAAPAABQAKQA+AEsAWAAABTI+AjU0LgIjIg4CFRQeAjMRMh4CFRQOAiMiLgI1ND4CMxEyPgI3DgMjIi4CJx4DMyU0NjMyFhUUBiMiJjUhNDYzMhYVFAYjIiY1AgBqu4tQUIu7amq7i1BQi7tqVphxQUFxmFZWmHFBQXGYVitVUUwjBTdWbz8/b1Y3BSNMUVUr/wAlGxslJRsbJQGAJRsbJSUbGyVAUIu7amq7i1BQi7tqaruLUAOgQXGYVlaYcUFBcZhWVphxQf4JDBUgFEN0VjExVnRDFCAVDPcoODgoKDg4KCg4OCgoODgoAAAAAAUAAP/ABAADwAAUACkANgBDAFYAAAUyPgI1NC4CIyIOAhUUHgIzETIeAhUUDgIjIi4CNTQ+AjMFNDYzMhYVFAYjIiY1ITQ2MzIWFRQGIyImNQEnPgMzMh4CFwcuASMiBgcCAGq7i1BQi7tqaruLUFCLu2pWmHFBQXGYVlaYcUFBcZhW/wAlGxslJRsbJQGAJRsbJSUbGyX+wFIVOkZRLCxRRjoVUh1mPT1mHUBQi7tqaruLUFCLu2pqu4tQA6BBcZhWVphxQUFxmFZWmHFB4BslJRsbJSUbGyUlGxslJRv+MzIjOSkWFik5IzIxPDwxAAUAAP/ABAADwAAUACkALQA6AEcAAAUyPgI1NC4CIyIOAhUUHgIzETIeAhUUDgIjIi4CNTQ+AjMTFwUnAzQ2MzIWFRQGIyImNSE0NjMyFhUUBiMiJjUCAGq7i1BQi7tqaruLUFCLu2pWmHFBQXGYVlaYcUFBcZhW6hb+SxY1JRsbJSUbGyUBgCUbGyUlGxslQFCLu2pqu4tQUIu7amq7i1ADoEFxmFZWmHFBQXGYVlaYcUH+BkyATAGaGyUlGxslJRsbJSUbGyUlGwAAAAEAAAAAAADrVpGzXw889QALBAAAAAAA0fAROAAAAADR8BE4AAD/wAQAA8AAAAAIAAIAAAAAAAAAAQAAA8D/wAAABAAAAAAABAAAAQAAAAAAAAAAAAAAAAAAAAcEAAAAAAAAAAAAAAACAAAABAAAAAQAAAAEAAAAAAAAAAAKABQAHgCYARABdgABAAAABwBZAAUAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADgCuAAEAAAAAAAEABwAAAAEAAAAAAAIABwBgAAEAAAAAAAMABwA2AAEAAAAAAAQABwB1AAEAAAAAAAUACwAVAAEAAAAAAAYABwBLAAEAAAAAAAoAGgCKAAMAAQQJAAEADgAHAAMAAQQJAAIADgBnAAMAAQQJAAMADgA9AAMAAQQJAAQADgB8AAMAAQQJAAUAFgAgAAMAAQQJAAYADgBSAAMAAQQJAAoANACkaWNvbW9vbgBpAGMAbwBtAG8AbwBuVmVyc2lvbiAxLjAAVgBlAHIAcwBpAG8AbgAgADEALgAwaWNvbW9vbgBpAGMAbwBtAG8AbwBuaWNvbW9vbgBpAGMAbwBtAG8AbwBuUmVndWxhcgBSAGUAZwB1AGwAYQByaWNvbW9vbgBpAGMAbwBtAG8AbwBuRm9udCBnZW5lcmF0ZWQgYnkgSWNvTW9vbi4ARgBvAG4AdAAgAGcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAuAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==) format("woff")
+}
+
+.xprs-feedback-app-icon:before {
+  font-family: "xprs-feedback-app-icons";
+  font-style: normal;
+  font-weight: normal
+}
+
+.xprs-feedback-app-icon.xprs-feedback-app-icon-positive:before {
+  content: "\e600"
+}
+
+.xprs-feedback-app-icon.xprs-feedback-app-icon-neutral:before {
+  content: "\e602"
+}
+
+.xprs-feedback-app-icon.xprs-feedback-app-icon-negative:before {
+  content: "\e601"
+}
+
+@-webkit-keyframes xprs-feedback-app-bounce-in-down {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(.215, .610, .355, 1);
+    animation-timing-function: cubic-bezier(.215, .610, .355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0)
+  }
+
+  60% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0)
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0)
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0)
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+@keyframes xprs-feedback-app-bounce-in-down {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(.215, .610, .355, 1);
+    animation-timing-function: cubic-bezier(.215, .610, .355, 1)
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0)
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0)
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0)
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0)
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+@-webkit-keyframes xprs-feedback-app-bounce-out-up {
+  20% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0)
+  }
+
+  40%, 45% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0)
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0)
+  }
+}
+
+@keyframes xprs-feedback-app-bounce-out-up {
+  20% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0)
+  }
+
+  40%, 45% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0)
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0)
+  }
+}
+
+.xprs-feedback-app, .xprs-feedback-app-feedback-button {
+  color: #000 !important;
+  box-sizing: border-box !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+  button.xprs-feedback-app-feedback-button {
+    color: #fff !important;
+    outline: none !important;
+    font-size: 1em !important;
+    background: #000;
+    border: 0 !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    position: fixed !important;
+    z-index: 8000000000005;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    height: 2em !important;
+    width: auto !important;
+    min-width: auto !important;
+    max-width: auto !important;
+    padding: .5em .8em !important;
+    line-height: initial !important;
+    border-radius: .1875em .1875em 0 0 !important;
+    font-weight: bold !important;
+    cursor: pointer !important
+  }
+
+  button.xprs-feedback-app-feedback-button:hover {
+    box-shadow: inset 0 0 0 999em rgba(255, 255, 255, .1) !important
+  }
+
+  button.xprs-feedback-app-feedback-button:hover:active {
+    box-shadow: inset 0 0 0 999em rgba(0, 0, 0, .2) !important
+  }
+
+  .xprs-feedback-app-feedback-button[data-location="left-edge"],
+  .xprs-feedback-app-feedback-button[data-location="right-edge"] {
+    top: 0 !important;
+    bottom: 0 !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+
+  .xprs-feedback-app-feedback-button[data-location="left-edge"] {
+    left: 0 !important;
+    -webkit-transform: rotate(90deg) translateX(-50%) translateY(-50%) !important;
+    transform: rotate(90deg) translateX(-50%) translateY(-50%) !important;
+    -webkit-transform-origin: 0 50% !important;
+    transform-origin: 0 50% !important;
+  }
+
+  .xprs-feedback-app-feedback-button[data-location="right-edge"] {
+    right: 0 !important;
+    -webkit-transform: rotate(-90deg) translateX(50%) translateY(-50%) !important;
+    transform: rotate(-90deg) translateX(50%) translateY(-50%) !important;
+    -webkit-transform-origin: 100% 50% !important;
+    transform-origin: 100% 50% !important;
+  }
+
+  .xprs-feedback-app-feedback-button[data-location="bottom-left-corner"],
+  .xprs-feedback-app-feedback-button[data-location="bottom-right-corner"] {
+    bottom: 0 !important
+  }
+
+  .xprs-feedback-app-feedback-button[data-location="bottom-left-corner"] {
+    left: 3em !important
+  }
+
+  .xprs-feedback-app-feedback-button[data-location="bottom-right-corner"] {
+    right: 3em !important
+  }
+
+.xprs-feedback-app * {
+  color: inherit !important
+}
+
+.xprs-feedback-app:before, .xprs-feedback-app:after, .xprs-feedback-app *, .xprs-feedback-app *:before, .xprs-feedback-app *:after {
+  display: block !important;
+  box-sizing: inherit !important
+}
+
+.xprs-feedback-app, .xprs-feedback-app * {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  text-decoration: none !important;
+  border: 0 !important;
+  outline: none !important;
+  margin: 0 !important;
+  padding: 0 !important
+}
+
+.xprs-feedback-app {
+  position: fixed;
+  z-index: 8000000000006;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-height: calc(100vh + 5.5em) !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 0 !important;
+  width: 25em;
+  max-width: 100%;
+  padding: 6.5em 1.5em 1.5em 1.5em !important;
+  margin-top: -5em !important;
+  background: #fff !important;
+  border-radius: 0 0 .3125em .3125em;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .2), 0 0 50px rgba(0, 0, 0, .2), 0 0 0 10000px rgba(0, 0, 0, 0) !important;
+  transition: box-shadow 1s ease !important;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0)
+}
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .xprs-feedback-app {
+      box-shadow: 0 0 0 .5px rgba(0, 0, 0, .2), 0 0 50px rgba(0, 0, 0, .2), 0 0 0 10000px rgba(0, 0, 0, 0) !important
+    }
+  }
+
+  .xprs-feedback-app::-webkit-scrollbar, .xprs-feedback-app::-webkit-scrollbar-thumb {
+    height: 10px;
+    width: 10px
+  }
+
+  .xprs-feedback-app::-webkit-scrollbar {
+    background: #fff !important;
+  }
+
+  .xprs-feedback-app::-webkit-scrollbar-thumb {
+    border: 3px solid #fff !important;
+    border-top-width: 5.1875em !important;
+    border-bottom-width: .625em !important;
+    background: #aaa !important
+  }
+
+  @media (max-width: 30em) {
+    .xprs-feedback-app {
+      width: 100%;
+      border-radius: 0
+    }
+  }
+
+  @media (max-width: 15em) {
+    .xprs-feedback-app {
+      display: none
+    }
+  }
+
+  .xprs-feedback-app.xprs-feedback-app-show {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .2), 0 0 50px rgba(0, 0, 0, .2), 0 0 0 10000px rgba(0, 0, 0, .1) !important;
+    -webkit-animation: xprs-feedback-app-bounce-in-down 1s ease forwards;
+    animation: xprs-feedback-app-bounce-in-down 1s ease forwards
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .xprs-feedback-app.xprs-feedback-app-show {
+      box-shadow: 0 0 0 .5px rgba(0, 0, 0, .2), 0 0 50px rgba(0, 0, 0, .2), 0 0 0 10000px rgba(0, 0, 0, .1) !important
+    }
+  }
+
+  .xprs-feedback-app.xprs-feedback-app-hide {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .2), 0 0 50px rgba(0, 0, 0, .2), 0 0 0 10000px rgba(0, 0, 0, 0) !important;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-animation: xprs-feedback-app-bounce-out-up 1s ease forwards;
+    animation: xprs-feedback-app-bounce-out-up 1s ease forwards
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .xprs-feedback-app.xprs-feedback-app-hide {
+      box-shadow: 0 0 0 .5px rgba(0, 0, 0, .2), 0 0 50px rgba(0, 0, 0, .2), 0 0 0 10000px rgba(0, 0, 0, 0) !important
+    }
+  }
+
+  .xprs-feedback-app-content {
+    margin-bottom: 1em !important
+  }
+
+    .xprs-feedback-app-header {
+      font-size: 1.3em !important;
+      font-weight: bold;
+      opacity: .7;
+      margin-bottom: .9em !important;
+      margin-left: 1em !important;
+      margin-right: 1em !important;
+      text-align: center !important;
+      line-height: 1em !important
+    }
+
+    .xprs-feedback-app-body {
+      opacity: .7;
+      font-size: .9em !important;
+      line-height: 1.3em;
+      margin-bottom: 1em !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      text-align: center !important
+    }
+
+    .xprs-feedback-app-form {
+      position: relative !important
+    }
+
+      .xprs-feedback-app-form > input {
+        position: absolute;
+        top: 5em;
+        left: 3em;
+        opacity: 0
+      }
+
+    .xprs-feedback-app-field-smileys {
+      font-size: 4em !important;
+      position: relative !important
+    }
+
+      @media (max-width: 24em) {
+        .xprs-feedback-app-field-smileys {
+          font-size: 3em !important;
+        }
+      }
+
+      @media (max-width: 20em) {
+        .xprs-feedback-app-field-smileys {
+          font-size: 2.5em !important;
+        }
+      }
+
+      @media (max-width: 16em) {
+        .xprs-feedback-app-field-smileys {
+          font-size: 2em !important;
+        }
+      }
+
+      .xprs-feedback-app-field-smileys > label {
+        box-sizing: border-box !important;
+        cursor: pointer !important;
+        position: relative;
+        display: inline-block !important;
+        width: 30% !important;
+        margin: 0 2.5% !important;
+        padding: .25em !important;
+        line-height: initial !important;
+        background: transparent !important;
+        border-radius: .125em !important;
+        transition: background .15s ease, box-shadow .2s ease !important;
+        box-shadow: inset 0 0 0 0 transparent !important;
+        text-align: center !important
+      }
+
+        .xprs-feedback-app-field-smileys > label:before {
+          color: rgba(0, 0, 0, .3) !important;
+          transition: color .15s ease !important
+        }
+
+        .xprs-feedback-app-form > input:not(:checked) + input:not(:checked) + input:not(:checked) + .xprs-feedback-app-field-smileys > label[for="xprs-feedback-app-negative"]:before,
+        .xprs-feedback-app-form > input#xprs-feedback-app-negative:checked ~ .xprs-feedback-app-field-smileys > label[for="xprs-feedback-app-negative"]:before {
+          color: #ea003a !important
+        }
+
+        .xprs-feedback-app-form > input:not(:checked) + input:not(:checked) + input:not(:checked) + .xprs-feedback-app-field-smileys > label[for="xprs-feedback-app-neutral"]:before,
+        .xprs-feedback-app-form > input#xprs-feedback-app-neutral:checked ~ .xprs-feedback-app-field-smileys > label[for="xprs-feedback-app-neutral"]:before {
+          color: #ff7f50 !important
+        }
+
+        .xprs-feedback-app-form > input:not(:checked) + input:not(:checked) + input:not(:checked) + .xprs-feedback-app-field-smileys > label[for="xprs-feedback-app-positive"]:before,
+        .xprs-feedback-app-form > input#xprs-feedback-app-positive:checked ~ .xprs-feedback-app-field-smileys > label[for="xprs-feedback-app-positive"]:before {
+          color: #1ab97a !important
+        }
+
+        .xprs-feedback-app-field-smileys > label:hover {
+          background: #eee !important
+        }
+
+        .xprs-feedback-app-field-smileys > label:first-of-type {
+          margin-left: 0 !important
+        }
+
+        .xprs-feedback-app-field-smileys > label:last-of-type {
+          margin-right: 0 !important
+        }
+
+    .xprs-feedback-app-field-feedback {
+      overflow: hidden !important;
+      max-height: 10em !important;
+      padding: .25em !important;
+      margin: -.25em !important;
+      transition: max-height .5s ease !important
+    }
+
+      .xprs-feedback-app-form > input:not(:checked) + input:not(:checked) + input:not(:checked) ~ .xprs-feedback-app-field-feedback {
+        max-height: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important
+      }
+
+      .xprs-feedback-app-field-feedback textarea {
+        margin-top: 1em !important
+      }
+
+    .xprs-feedback-app-field-email {
+      overflow: hidden !important;
+      max-height: 4em !important;
+      padding: .25em !important;
+      margin: -.25em !important;
+      transition: max-height .5s ease !important
+    }
+
+      .xprs-feedback-app-field-feedback > textarea:invalid ~ .xprs-feedback-app-field-email {
+        max-height: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important
+      }
+
+      .xprs-feedback-app-field-email-input-wrapper {
+        position: relative !important
+      }
+
+      .xprs-feedback-app-field-email input {
+        margin-top: .75em !important
+      }
+
+    .xprs-feedback-app-input {
+      appearance: none;
+      font-family: inherit !important;
+      width: 100% !important;
+      -webkit-tap-highlight-color: transparent;
+      text-rendering: optimizeLegibility;
+      background: #fff !important;
+      color: rgba(0, 0, 0, .8) !important;
+      border: 1px solid rgba(0, 0, 0, .14) !important;
+      border-top-color: rgba(0, 0, 0, .22) !important;
+      padding: .6em .8em !important;
+      height: auto !important;
+      box-shadow: none !important;
+      line-height: initial !important;
+      border-radius: .1875em
+    }
+
+    textarea.xprs-feedback-app-input {
+      resize: none !important
+    }
+
+    .xprs-feedback-app-input::-webkit-input-placeholder {
+      color: rgba(0, 0, 0, .3) !important;
+      font-family: inherit;
+      font-size: 1em
+    }
+
+    .xprs-feedback-app-input:-moz-placeholder {
+      color: rgba(0, 0, 0, .3) !important;
+      font-family: inherit;
+      font-size: 1em
+    }
+
+    .xprs-feedback-app-input::-moz-placeholder {
+      color: rgba(0, 0, 0, .3) !important;
+      font-family: inherit;
+      font-size: 1em
+    }
+
+    .xprs-feedback-app-input:-ms-input-placeholder {
+      color: rgba(0, 0, 0, .3) !important;
+      font-family: inherit;
+      font-size: 1em
+    }
+
+    button.xprs-feedback-app-button {
+      position: absolute;
+      right: .25em !important;
+      top: .25em !important;
+      bottom: .25em !important;
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+      max-width: 25% !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+      padding-left: .75em !important;
+      padding-right: .75em !important;
+      white-space: nowrap !important;
+      line-height: initial !important;
+      color: #fff !important;
+      border-radius: .1875em;
+      font-weight: bold;
+      cursor: pointer;
+      opacity: 0 !important;
+      pointer-events: none !important;
+      transition: opacity ease .15s 1s !important
+    }
+
+    .xprs-feedback-app-input:valid + button.xprs-feedback-app-button {
+      opacity: 1 !important;
+      transition: none !important;
+      pointer-events: all !important
+    }
+
+    .xprs-feedback-app-input:valid + button.xprs-feedback-app-button:hover {
+      opacity: .9
+    }
+
+    .xprs-feedback-app-input:valid + button.xprs-feedback-app-button:hover:active {
+      opacity: .7
+    }
+
+    .xprs-feedback-app-input:valid + button.xprs-feedback-app-button:focus:before {
+      content: "";
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      bottom: 2px;
+      left: 2px;
+      border-radius: .1em;
+      box-shadow: inset 0 0 0 1px #fff;
+      pointer-events: none;
+      transition: opacity .3s ease-in-out
+    }
+
+    .xprs-feedback-app-input:valid + button.xprs-feedback-app-button:focus:active:before {
+      opacity: 0
+    }
+
+  .xprs-feedback-app-branding {
+    text-align: center;
+    font-size: .75em !important
+  }
+
+    a.xprs-feedback-app-branding-link {
+      color: inherit !important;
+      opacity: .4
+    }
+
+      a.xprs-feedback-app-branding-link:hover {
+        opacity: .8
+      }
+</style>
+	
+	</div>
+	</div>
+</div>
+					
+						</div>
+					
+			</div>
+		</div>
+		
+		
+		
+	
+	
+	<!-- MENUS START -->
+		<div  id="vbid-66c0f-mi2dlt9s"  class="master item-box header-box style-66c0f-xzzcevfe       " data-holder-type="header"" data-holder-type="header"  data-child-type="STYLE"  data-styleid="style-66c0f-xzzcevfe" data-preview-styleid='style-66c0f-xzzcevfe' data-preset-type-id="MENUS">
+			<div id="no-image" class="stripe-background load-high-res " ></div>
+			<div class="header-wrapper item-wrapper menus-wrapper ">
+					
+					<div class="item-content leaf menu_layout header content" data-preview-style="style-66c0f-xzzcevfe" data-style="style-7f715-scjjarqgxu"  data-behavior-type="NOTHING" data-orig-thumb-height="" data-orig-thumb-width="" data-vbid="vbid-66c0f-mi2dlt9s" data-bgimg="">
+<div class="preview-content-wrapper">
+<div class="preview-content-holder">
+	<div class="left-div">
+	<div class="benet" style="min-height:inherit;"></div>
+	<div class="logo-holder">
+		<!-- ICON TEMPLATE -->
+		
+	<div class="preview-icon-holder Icon removable-parent" >
+	
+		<img id="vbid-66c0f-oxvps29w" class="preview-element icon-source magic-circle-holder shrinkable-img" data-menu-name="PREVIEW_ICON" src="https://lh3.googleusercontent.com/S6XNZ5tbjylnv8inbZyE3cdq3lEYeq2qS1ZlnDM74s1zbWr_huMI-5FGAKTrcmw9Jw1bMo7RgeLTkP7Y">
+	
+	</div>
+	<br />
+
+	</div>
+	<div class="helper-div">
+		<div class="item-details menu">
+			<!-- TITLE TEMPLATE -->
+			
+<div class="preview-title-holder removable-parent">
+	
+	<a href="https://xprs.imcreator.com/viewer/vbid-66c0f-jv8mxxbu" data-link-type="EXISTING"   target="_self" >
+	
+		<h2 id="vbid-66c0f-lqo1r9tw" class="preview-element preview-title magic-circle-holder inner-page text-element quick-text-style-menu " data-menu-name="PREVIEW_TITLE" >Pizza Stop<br></h2>
+		</a>
+	</div>
+	<br />
+
+			<!-- SUBTITLE TEMPLATE -->
+			
+<div class="preview-subtitle-holder removable-parent">
+	
+	<h3 id="vbid-66c0f-pyvyv2jq" class="preview-element preview-subtitle magic-circle-holder text-element quick-text-style-menu " data-menu-name="PREVIEW_SUBTITLE">immerse in the cheese<br></h3>
+
+</div>
+<br />
+
+		</div>
+		</div>
+	</div>
+		<div class="right-div">
+			<div class="benet" style="min-height:inherit;"></div>
+			<!-- LINKS TEMPLATE -->
+			<div class="preview-item-links">
+
+	
+		<span id="vbid-66c0f-7msc8njr"  class="preview-element Link item-link magic-circle-holder text-element custom" data-menu-name="PREVIEW_LINK" >Login</span>
+		
+
+	
+		<span id="vbid-66c0f-tbcdrnal"  class="preview-element Link item-link magic-circle-holder text-element custom" data-menu-name="PREVIEW_LINK" >Sign Up</span>
+		
+
+<div class="element-placeholder" data-elementtype='LINK' style="display:none;"></div>
+	
+</div>
+			<div class='links-menu-btn'>
+				<div class='menu-line'></div>
+				<div class='menu-line'></div>
+				<div class='menu-line'></div>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- LAYOUT SETTINGS -->
+	<div class="layout-settings" style="display:none;" data-type="menu"
+		data-MENU_OVERLAY="relative"
+		data-MENU_SCROLL="true"
+		data-ALWAYS_MINIFIED="false"
+		data-MENU_POSITION="top"
+		data-MENU_ALIGN="left"
+		data-BACKGROUND_COLOR="rgb(227, 0, 0)"
+	></div>
+</div>
+					
+			</div>
+		</div>
+		<!-- MENUS END -->
+		
+		
+	
+	
+	<!-- PROMO START -->
+		<div  id="vbid-66c0f-1zv8ks9z"  class="master item-box gallery-box style-66c0f-8tvfeymk       " data-holder-type="gallery"" data-holder-type="gallery"  data-child-type="STYLE"  data-styleid="style-66c0f-8tvfeymk" data-preview-styleid='style-66c0f-8tvfeymk' data-preset-type-id="PROMO">
+			<div id="no-image" class="stripe-background load-high-res " ></div>
+			<div class="gallery-wrapper item-wrapper promo-wrapper ">
+					
+					<div  class="sub container style-66c0f-8tvfeymk content flex   " data-itemtype="folder" data-creator="" data-itemname="LOADING Copy"  data-itemslug="loading-copy" data-itemstyleid="style-66c0f-8tvfeymk" data-margintop="" data-arranger="flex" data-layout="middle" data-vbid="vbid-66c0f-1zv8ks9z" data-preset-type-id="PROMO" data-preview-style="style-66c0f-8tvfeymk" data-style="style-f3095-j0xhjgzynh" data-absolute-path="https://xprs.imcreator.com/viewer">
+	<!-- ARRANGER SETTINGS -->
+	<div class="arranger-settings" style="display:none;"
+		data-ARRANGER_TYPE="flex"
+		data-ARRANGER_COLS="0"
+		data-ARRANGER_ITEM_MAX_WIDTH="400"
+		data-ARRANGER_ITEM_MIN_WIDTH="230"
+		data-ARRANGER_ITEM_RATIO="1"
+		data-ARRANGER_ITEM_SPACING="20"
+		data-ARRANGER_ITEMS_PER_PAGE="all"
+		data-ARRANGER_ORDER_TYPE="regular"
+		data-AUTO_PLAY="true"
+		data-AUTO_PLAY_DURATION="4"
+		data-FLEX_ELEMENT_EFFECT="effect-fadein"
+	></div>
+	<div class="layout-settings" style="display:none;" data-type="middle"></div>
+	<div id="children">
+	
+		
+		<div id="items-holder-wrapper">
+			<div id="items-holder">
+	
+	
+	
+	
+		<div  id="vbid-66c0f-gsmcn4ru"  class="sub item-box page-box style-66c0f-8tvfeymk       " data-holder-type="page"" data-holder-type="page"  data-child-type="STYLE"  data-styleid="style-66c0f-8tvfeymk" data-preview-styleid='style-66c0f-8tvfeymk' data-preset-type-id="UNRESOLVED">
+			
+			<div class="page-wrapper item-wrapper ">
+					
+					
+
+
+<div class="item-content leaf middle_layout page content shrinker-parent" data-self="vbid-66c0f-gsmcn4ru" data-preview-style="style-66c0f-8tvfeymk" data-style="style-f3095-yq39oaomol" data-orig-thumb-height="1280" data-orig-thumb-width="2048" data-vbid="vbid-66c0f-gsmcn4ru" data-bgimg="https://lh3.googleusercontent.com/PK6wBgRrUCybHtHZcvXnRSiQm019-3qPcCaVOWA-yfAj5oHzbiTJiVyPnbSs9DfVyk2rK3nNUnIOfc6CEg">
+<div  class="preview image-cover" >
+	<div class="Picture item-preview">
+		<div class="preview-image-holder">
+			
+				<div  id="vbid-66c0f-eqm5qu2v"   class="background-div  preview-element image-source magic-circle-holder unfold-left load-high-res" data-menu-name="PREVIEW_IMAGE" style="background-image:url(https://lh3.googleusercontent.com/PK6wBgRrUCybHtHZcvXnRSiQm019-3qPcCaVOWA-yfAj5oHzbiTJiVyPnbSs9DfVyk2rK3nNUnIOfc6CEg=s300);" >
+					<!-- VIDEO TEMPLATE -->
+					
+
+<div class="element-placeholder" data-elementtype='VIDEO' style="display:none;"></div>
+
+
+					<!-- MAP TEMPLATE -->
+					
+<div class="element-placeholder" data-elementtype='MAP' style="display:none;"></div>
+
+				</div>
+				<div class="helper-div">
+				<div class="benet" style="min-height:inherit;"></div>
+					<div class="item-details preview-content-wrapper  middle">
+						<div class="preview-content-holder shrinker-content">
+							<!-- ICON TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='ICON' style="display:none;"></div>
+
+							<!-- TITLE TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='TITLE' style="display:none;"></div>
+
+							<!-- SUBTITLE TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='SUBTITLE' style="display:none;"></div>
+
+							<!-- BODY TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='BODY' style="display:none;"></div>
+
+							<!-- PRICE TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='PRICE' style="display:none;"></div>
+
+							<!-- FORM TEMPLATE -->
+							<div class="preview-form">
+
+<div class="element-placeholder" data-elementtype='FIELD' style="display:none;"></div>
+</div>
+							<!-- LINKS TEMPLATE -->
+							<div class="preview-item-links">
+
+<div class="element-placeholder" data-elementtype='LINK' style="display:none;"></div>
+	
+</div>
+							<!-- SOCIAL TEMPLATE -->
+							
+
+<div class="element-placeholder" data-elementtype='SOCIAL' style="display:none;"></div>
+
+
+							<!-- RAW TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='RAW' style="display:none;"></div>
+
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- LAYOUT SETTINGS -->
+<div class="layout-settings" style="display:none;" data-type="middle"></div>
+					
+			</div>
+		</div>
+		
+		
+		
+	
+	
+	
+		<div  id="vbid-66c0f-ztrqc2kw"  class="sub item-box page-box style-66c0f-8tvfeymk       " data-holder-type="page"" data-holder-type="page"  data-child-type="STYLE"  data-styleid="style-66c0f-8tvfeymk" data-preview-styleid='style-66c0f-8tvfeymk' data-preset-type-id="UNRESOLVED">
+			
+			<div class="page-wrapper item-wrapper ">
+					
+					
+
+
+<div class="item-content leaf middle_layout page content shrinker-parent" data-self="vbid-66c0f-ztrqc2kw" data-preview-style="style-66c0f-8tvfeymk" data-style="style-f3095-yq39oaomol" data-orig-thumb-height="1280" data-orig-thumb-width="2048" data-vbid="vbid-66c0f-ztrqc2kw" data-bgimg="https://lh3.googleusercontent.com/PK6wBgRrUCybHtHZcvXnRSiQm019-3qPcCaVOWA-yfAj5oHzbiTJiVyPnbSs9DfVyk2rK3nNUnIOfc6CEg">
+<div  class="preview image-cover" >
+	<div class="Picture item-preview">
+		<div class="preview-image-holder">
+			
+				<div  id="vbid-66c0f-3velwqab"   class="background-div  preview-element image-source magic-circle-holder unfold-left load-high-res" data-menu-name="PREVIEW_IMAGE" style="background-image:url(https://lh3.googleusercontent.com/PK6wBgRrUCybHtHZcvXnRSiQm019-3qPcCaVOWA-yfAj5oHzbiTJiVyPnbSs9DfVyk2rK3nNUnIOfc6CEg=s300);" >
+					<!-- VIDEO TEMPLATE -->
+					
+
+<div class="element-placeholder" data-elementtype='VIDEO' style="display:none;"></div>
+
+
+					<!-- MAP TEMPLATE -->
+					
+<div class="element-placeholder" data-elementtype='MAP' style="display:none;"></div>
+
+				</div>
+				<div class="helper-div">
+				<div class="benet" style="min-height:inherit;"></div>
+					<div class="item-details preview-content-wrapper  middle">
+						<div class="preview-content-holder shrinker-content">
+							<!-- ICON TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='ICON' style="display:none;"></div>
+
+							<!-- TITLE TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='TITLE' style="display:none;"></div>
+
+							<!-- SUBTITLE TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='SUBTITLE' style="display:none;"></div>
+
+							<!-- BODY TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='BODY' style="display:none;"></div>
+
+							<!-- PRICE TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='PRICE' style="display:none;"></div>
+
+							<!-- FORM TEMPLATE -->
+							<div class="preview-form">
+
+<div class="element-placeholder" data-elementtype='FIELD' style="display:none;"></div>
+</div>
+							<!-- LINKS TEMPLATE -->
+							<div class="preview-item-links">
+
+<div class="element-placeholder" data-elementtype='LINK' style="display:none;"></div>
+	
+</div>
+							<!-- SOCIAL TEMPLATE -->
+							
+
+<div class="element-placeholder" data-elementtype='SOCIAL' style="display:none;"></div>
+
+
+							<!-- RAW TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='RAW' style="display:none;"></div>
+
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- LAYOUT SETTINGS -->
+<div class="layout-settings" style="display:none;" data-type="middle"></div>
+					
+			</div>
+		</div>
+		
+		
+		
+	
+	
+	
+		<div  id="vbid-66c0f-mut0o3zp"  class="sub item-box page-box style-66c0f-8tvfeymk       " data-holder-type="page"" data-holder-type="page"  data-child-type="STYLE"  data-styleid="style-66c0f-8tvfeymk" data-preview-styleid='style-66c0f-8tvfeymk' data-preset-type-id="UNRESOLVED">
+			
+			<div class="page-wrapper item-wrapper ">
+					
+					
+
+
+<div class="item-content leaf middle_layout page content shrinker-parent" data-self="vbid-66c0f-mut0o3zp" data-preview-style="style-66c0f-8tvfeymk" data-style="style-f3095-yq39oaomol" data-orig-thumb-height="1280" data-orig-thumb-width="2048" data-vbid="vbid-66c0f-mut0o3zp" data-bgimg="https://lh3.googleusercontent.com/PK6wBgRrUCybHtHZcvXnRSiQm019-3qPcCaVOWA-yfAj5oHzbiTJiVyPnbSs9DfVyk2rK3nNUnIOfc6CEg">
+<div  class="preview image-cover" >
+	<div class="Picture item-preview">
+		<div class="preview-image-holder">
+			
+				<div  id="vbid-66c0f-3kpxqerf"   class="background-div  preview-element image-source magic-circle-holder unfold-left load-high-res" data-menu-name="PREVIEW_IMAGE" style="background-image:url(https://lh3.googleusercontent.com/PK6wBgRrUCybHtHZcvXnRSiQm019-3qPcCaVOWA-yfAj5oHzbiTJiVyPnbSs9DfVyk2rK3nNUnIOfc6CEg=s300);" >
+					<!-- VIDEO TEMPLATE -->
+					
+
+<div class="element-placeholder" data-elementtype='VIDEO' style="display:none;"></div>
+
+
+					<!-- MAP TEMPLATE -->
+					
+<div class="element-placeholder" data-elementtype='MAP' style="display:none;"></div>
+
+				</div>
+				<div class="helper-div">
+				<div class="benet" style="min-height:inherit;"></div>
+					<div class="item-details preview-content-wrapper  middle">
+						<div class="preview-content-holder shrinker-content">
+							<!-- ICON TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='ICON' style="display:none;"></div>
+
+							<!-- TITLE TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='TITLE' style="display:none;"></div>
+
+							<!-- SUBTITLE TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='SUBTITLE' style="display:none;"></div>
+
+							<!-- BODY TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='BODY' style="display:none;"></div>
+
+							<!-- PRICE TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='PRICE' style="display:none;"></div>
+
+							<!-- FORM TEMPLATE -->
+							<div class="preview-form">
+
+<div class="element-placeholder" data-elementtype='FIELD' style="display:none;"></div>
+</div>
+							<!-- LINKS TEMPLATE -->
+							<div class="preview-item-links">
+
+<div class="element-placeholder" data-elementtype='LINK' style="display:none;"></div>
+	
+</div>
+							<!-- SOCIAL TEMPLATE -->
+							
+
+<div class="element-placeholder" data-elementtype='SOCIAL' style="display:none;"></div>
+
+
+							<!-- RAW TEMPLATE -->
+							
+<div class="element-placeholder" data-elementtype='RAW' style="display:none;"></div>
+
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- LAYOUT SETTINGS -->
+<div class="layout-settings" style="display:none;" data-type="middle"></div>
+					
+			</div>
+		</div>
+		
+		
+		
+	
+		
+			</div>
+		</div>
+		
+		
+	
+	</div>
+</div>
+					
+			</div>
+		</div>
+		<!-- PROMO END -->
+		
+		
+	
+	
+	<!-- MAPS START -->
+		<div  id="vbid-66c0f-khrifuhh"  class="master item-box gallery-box style-66c0f-hmegq1oj    button-effects btn_hover3   " data-holder-type="gallery"" data-holder-type="gallery"  data-child-type="STYLE"  data-styleid="style-66c0f-hmegq1oj" data-preview-styleid='style-66c0f-hmegq1oj' data-preset-type-id="MAPS">
+			<div id="no-image" class="stripe-background load-high-res " ></div>
+			<div class="gallery-wrapper item-wrapper maps-wrapper ">
+					
+					<div  class="sub container style-66c0f-hmegq1oj content flex   " data-itemtype="folder" data-creator="" data-itemname="LOADING Copy"  data-itemslug="loading-copy" data-itemstyleid="style-66c0f-hmegq1oj" data-margintop="" data-arranger="flex" data-layout="multi" data-vbid="vbid-66c0f-khrifuhh" data-preset-type-id="MAPS" data-preview-style="style-66c0f-hmegq1oj" data-style="style-4e411-j0xhjgzynh" data-absolute-path="https://xprs.imcreator.com/viewer">
+	<!-- ARRANGER SETTINGS -->
+	<div class="arranger-settings" style="display:none;"
+		data-ARRANGER_TYPE="flex"
+		data-ARRANGER_COLS="0"
+		data-ARRANGER_ITEM_MAX_WIDTH="400"
+		data-ARRANGER_ITEM_MIN_WIDTH="230"
+		data-ARRANGER_ITEM_RATIO="1"
+		data-ARRANGER_ITEM_SPACING="20"
+		data-ARRANGER_ITEMS_PER_PAGE="all"
+		data-ARRANGER_ORDER_TYPE="regular"
+		data-AUTO_PLAY="true"
+		data-AUTO_PLAY_DURATION="4"
+		data-FLEX_ELEMENT_EFFECT="effect-fadein"
+	></div>
+	<div class="layout-settings" style="display:none;" data-type="multi"></div>
+	<div id="children">
+	
+		
+		<div id="items-holder-wrapper">
+			<div id="items-holder">
+	
+	
+	
+	
+		<div  id="vbid-66c0f-rtqbwkye"  class="sub item-box page-box style-66c0f-hmegq1oj       " data-holder-type="page"" data-holder-type="page"  data-child-type="STYLE"  data-styleid="style-66c0f-hmegq1oj" data-preview-styleid='style-66c0f-hmegq1oj' data-preset-type-id="UNRESOLVED">
+			
+			<div class="page-wrapper item-wrapper ">
+					
+					
+
+
+<div class="item-content leaf multi_layout page content" data-self="vbid-66c0f-rtqbwkye" data-preview-style="style-66c0f-hmegq1oj" data-style="style-4e411-yq39oaomol" data-orig-thumb-height="" data-orig-thumb-width="" data-vbid="vbid-66c0f-rtqbwkye" data-bgimg="">
+<div  class="multi-container preview image-cover" >
+	<div class="Picture item-preview">
+		<div class="preview-image-holder">
+			<div id="no-image" class="background-image-div preview-element image-source magic-circle-holder unfold-left load-high-res" data-menu-name="BACKGROUND_IMAGE" style="">
+			</div>
+			<div class="helper-div middle-left" >
+			<!-- <div class="benet" style="min-height:inherit;"></div> -->
+			<div class="pic-side">
+				<div class="vertical-aligner">
+					<div id="no-image-holder"  class="preview-image-holder inner-pic-holder" data-menu-name="PREVIEW_INLINE_IMAGE_HOLDER">
+
+	<div  id="no-image" class="inner-pic preview-element  magic-circle-holder  load-high-res " data-menu-name="PREVIEW_INLINE_IMAGE" style=""  data-orig-width="" data-orig-height="" >
+		<!-- VIDEO TEMPLATE -->
+		
+
+<div class="element-placeholder" data-elementtype='VIDEO' style="display:none;"></div>
+
+
+		<!-- MAP TEMPLATE -->
+		
+<div class="element-placeholder" data-elementtype='MAP' style="display:none;"></div>
+
+	</div>
+	
+</div>
+	
+
+				</div>
+			</div>	
+				<div class="text-side shrinker-parent">
+					<div class="vertical-aligner">
+						<div class="item-details preview-content-wrapper  multi" style="position:relative;">
+							<div class="draggable-div-holder"></div>
+							<div class="preview-content-holder shrinker-content">
+								
+									<!--  BY SPECIFIC ORDER -->
+									
+										
+											
+												
+<br class="upper-line-break" />
+<div class="preview-title-holder removable-parent order-handle">
+	
+	<h2 id="vbid-66c0f-sbwsvxlq" class="preview-element preview-title magic-circle-holder inner-page text-element quick-text-style-menu " data-menu-name="PREVIEW_TITLE" >Timings</h2>
+	
+</div>
+<br class="lower-line-break" />
+
+											
+										
+									
+										
+											
+												
+<br class="upper-line-break" />
+<div class="preview-body-holder removable-parent order-handle">
+	
+	<div id="vbid-66c0f-qibctmrp" class="preview-element preview-body magic-circle-holder text-element quick-text-style-menu " data-menu-name="PREVIEW_BODY">
+		<p>Monday - Friday   <em>​</em>    9:00 AM - 10:00 PM</p><p>Weekends                 9:00 AM - 1:00 AM</p>
+	</div>
+	
+</div>
+<br class="lower-line-break" />
+
+											
+										
+									
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- LAYOUT SETTINGS -->
+<div class="layout-settings" style="display:none;" data-type="multi"></div>
+					
+			</div>
+		</div>
+		
+		
+		
+	
+		
+			</div>
+		</div>
+		
+		
+	
+	</div>
+</div>
+					
+			</div>
+		</div>
+		<!-- MAPS END -->
+		
+		
+	
+	
+	<!-- FEATURES START -->
+		<div  id="vbid-66c0f-5zbupopf"  class="master item-box gallery-box style-66c0f-exmhhj7e       " data-holder-type="gallery"" data-holder-type="gallery"  data-child-type="NATIVE_ORDER"  data-styleid="style-66c0f-exmhhj7e" data-preview-styleid='style-66c0f-exmhhj7e' data-preset-type-id="FEATURES">
+			<div id="no-image" class="stripe-background load-high-res " ></div>
+			<div class="gallery-wrapper item-wrapper features-wrapper ">
+					
+					<div  class="sub container style-66c0f-exmhhj7e content matrix   " data-itemtype="folder" data-creator="" data-itemname="LOADING"  data-itemslug="loading" data-itemstyleid="style-66c0f-exmhhj7e" data-margintop="" data-arranger="matrix" data-layout="multi" data-vbid="vbid-66c0f-5zbupopf" data-preset-type-id="FEATURES" data-preview-style="style-66c0f-exmhhj7e" data-style="style-03904dd161de4b44b5045de52aafaa5a" data-absolute-path="https://xprs.imcreator.com/viewer">
+	<!-- ARRANGER SETTINGS -->
+	<div class="arranger-settings" style="display:none;"
+		data-ARRANGER_TYPE="matrix"
+		data-ARRANGER_COLS="2"
+		data-ARRANGER_ITEM_MAX_WIDTH="1000"
+		data-ARRANGER_ITEM_MIN_WIDTH="443"
+		data-ARRANGER_ITEM_RATIO="0.5"
+		data-ARRANGER_ITEM_SPACING="0"
+		data-ARRANGER_ITEMS_PER_PAGE="all"
+		data-ARRANGER_ORDER_TYPE="regular"
+		data-AUTO_PLAY="false"
+		data-AUTO_PLAY_DURATION="4"
+		data-FLEX_ELEMENT_EFFECT=""
+	></div>
+	<div class="layout-settings" style="display:none;" data-type="multi"></div>
+	<div id="children">
+	
+		
+		<div id="items-holder-wrapper">
+			<div id="items-holder">
+	
+	
+	
+	
+		<div  id="vbid-66c0f-u6m7heyv"  class="sub item-box page-box style-66c0f-exmhhj7e       " data-holder-type="page"" data-holder-type="page"  data-child-type="STYLE"  data-styleid="style-66c0f-exmhhj7e" data-preview-styleid='style-66c0f-exmhhj7e' data-preset-type-id="UNRESOLVED">
+			
+			<div class="page-wrapper item-wrapper ">
+					
+					
+
+
+<div class="item-content leaf multi_layout page content" data-self="vbid-66c0f-u6m7heyv" data-preview-style="style-66c0f-exmhhj7e" data-style="style-de1aa-ylzkclziqy" data-orig-thumb-height="" data-orig-thumb-width="" data-vbid="vbid-66c0f-u6m7heyv" data-bgimg="">
+<div  class="multi-container preview image-cover" >
+	<div class="Picture item-preview">
+		<div class="preview-image-holder">
+			<div id="no-image" class="background-image-div preview-element image-source magic-circle-holder unfold-left load-high-res" data-menu-name="BACKGROUND_IMAGE" style="">
+			</div>
+			<div class="helper-div middle-center" >
+			<!-- <div class="benet" style="min-height:inherit;"></div> -->
+			<div class="pic-side">
+				<div class="vertical-aligner">
+					<div id="no-image-holder"  class="preview-image-holder inner-pic-holder" data-menu-name="PREVIEW_INLINE_IMAGE_HOLDER">
+
+	<div  id="no-image" class="inner-pic preview-element  magic-circle-holder  load-high-res " data-menu-name="PREVIEW_INLINE_IMAGE" style=""  data-orig-width="" data-orig-height="" >
+		<!-- VIDEO TEMPLATE -->
+		
+
+<div class="element-placeholder" data-elementtype='VIDEO' style="display:none;"></div>
+
+
+		<!-- MAP TEMPLATE -->
+		
+<div class="element-placeholder" data-elementtype='MAP' style="display:none;"></div>
+
+	</div>
+	
+</div>
+	
+
+				</div>
+			</div>	
+				<div class="text-side shrinker-parent">
+					<div class="vertical-aligner">
+						<div class="item-details preview-content-wrapper  multi" style="position:relative;">
+							<div class="draggable-div-holder"></div>
+							<div class="preview-content-holder shrinker-content">
+								
+									
+										<!--  BY NATIVE ORDER -->
+										
+											
+<div class="element-placeholder" data-elementtype='ICON' style="display:none;"></div>
+
+										
+											
+<br class="upper-line-break" />
+<div class="preview-title-holder removable-parent order-handle">
+	
+	<h2 id="vbid-66c0f-5zx3omrd" class="preview-element preview-title magic-circle-holder inner-page text-element quick-text-style-menu " data-menu-name="PREVIEW_TITLE" >Specials</h2>
+	
+</div>
+<br class="lower-line-break" />
+
+										
+											
+
+<div class="element-placeholder" data-elementtype='SUBTITLE' style="display:none;"></div>
+
+
+										
+											
+<br class="upper-line-break" />
+<div class="preview-divider-holder removable-parent order-handle">
+	<div id="vbid-66c0f-metd3kh6" class="preview-element preview-divider magic-circle-holder quick-text-style-menu" data-menu-name="PREVIEW_DIVIDER">
+	</div>
+</div>
+<br class="lower-line-break" />
+
+										
+											
+<br class="upper-line-break" />
+<div class="preview-body-holder removable-parent order-handle">
+	
+	<div id="vbid-66c0f-bu6eob3q" class="preview-element preview-body magic-circle-holder text-element quick-text-style-menu " data-menu-name="PREVIEW_BODY">
+		<h2><span style="font-family:montserrat;">MUSHROOM BRUSCHETTA</span><br><span style="font-family:arial;"><span style="font-size:10px;">Ricotta, rosemary &amp; lemon</span></span><br>£5.75</h2><p><br></p><h2><span style="font-family:montserrat;">RICOTTA BRUSCHETTA</span><br>Balsamic-roasted cherry tomatoes, Colwick cheese &amp; basil<br>​£7.50<br><br><span style="font-family:montserrat;">CARONATA BRUSCHETTA</span><br>Spiced aubergine, hard ricotta &amp; pine nuts<br>£6.50</h2><p><br></p><h2><span style="font-family:montserrat;">CHICKEN LIVER BRUSCHETTA</span><br>Smooth Italian paté with pancetta, vin santo &amp; Parmesan<br>£8.50</h2><p><br></p><h2><span style="font-family:montserrat;">CRISPY CHICKEN</span><br>With crushed garlic mayo, chopped chilli &amp; lemon<br>£9.95</h2><p><br></p><h2><span style="font-family:montserrat;">FRESH CRAB BRUSCHETTA</span><br>Dressed with finely sliced fennel, lemon &amp; chilli<br>£6.70</h2><p><br></p><h2><span style="font-family:montserrat;">PORCINI MUSHROOM</span><br>Fried balls of porcini risotto with fontina, mozzarella &amp; arrabbiata<br>£5.50</h2>
+	</div>
+	
+</div>
+<br class="lower-line-break" />
+
+										
+											
+<div class="element-placeholder" data-elementtype='PRICE' style="display:none;"></div>
+
+										
+											<div class="preview-form order-handle">
+
+<div class="element-placeholder" data-elementtype='FIELD' style="display:none;"></div>
+</div>
+										
+											<div class="preview-item-links order-handle">
+
+<div class="element-placeholder" data-elementtype='LINK' style="display:none;"></div>
+	
+</div>
+										
+											
+
+<div class="element-placeholder" data-elementtype='SOCIAL' style="display:none;"></div>
+
+
+										
+									
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- LAYOUT SETTINGS -->
+<div class="layout-settings" style="display:none;" data-type="multi"></div>
+					
+			</div>
+		</div>
+		
+		
+		
+	
+	
+	
+		<div  id="vbid-66c0f-idmbtvcu"  class="sub item-box page-box style-66c0f-exmhhj7e       " data-holder-type="page"" data-holder-type="page"  data-child-type="STYLE"  data-styleid="style-66c0f-exmhhj7e" data-preview-styleid='style-66c0f-exmhhj7e' data-preset-type-id="UNRESOLVED">
+			
+			<div class="page-wrapper item-wrapper ">
+					
+					
+
+
+<div class="item-content leaf multi_layout page content" data-self="vbid-66c0f-idmbtvcu" data-preview-style="style-66c0f-exmhhj7e" data-style="style-de1aa-ylzkclziqy" data-orig-thumb-height="" data-orig-thumb-width="" data-vbid="vbid-66c0f-idmbtvcu" data-bgimg="">
+<div  class="multi-container preview image-cover" >
+	<div class="Picture item-preview">
+		<div class="preview-image-holder">
+			<div id="no-image" class="background-image-div preview-element image-source magic-circle-holder unfold-left load-high-res" data-menu-name="BACKGROUND_IMAGE" style="">
+			</div>
+			<div class="helper-div middle-center" >
+			<!-- <div class="benet" style="min-height:inherit;"></div> -->
+			<div class="pic-side">
+				<div class="vertical-aligner">
+					<div id="no-image-holder"  class="preview-image-holder inner-pic-holder" data-menu-name="PREVIEW_INLINE_IMAGE_HOLDER">
+
+	<div  id="no-image" class="inner-pic preview-element  magic-circle-holder  load-high-res " data-menu-name="PREVIEW_INLINE_IMAGE" style=""  data-orig-width="" data-orig-height="" >
+		<!-- VIDEO TEMPLATE -->
+		
+
+<div class="element-placeholder" data-elementtype='VIDEO' style="display:none;"></div>
+
+
+		<!-- MAP TEMPLATE -->
+		
+<div class="element-placeholder" data-elementtype='MAP' style="display:none;"></div>
+
+	</div>
+	
+</div>
+	
+
+				</div>
+			</div>	
+				<div class="text-side shrinker-parent">
+					<div class="vertical-aligner">
+						<div class="item-details preview-content-wrapper  multi" style="position:relative;">
+							<div class="draggable-div-holder"></div>
+							<div class="preview-content-holder shrinker-content">
+								
+									
+										<!--  BY NATIVE ORDER -->
+										
+											
+<div class="element-placeholder" data-elementtype='ICON' style="display:none;"></div>
+
+										
+											
+<br class="upper-line-break" />
+<div class="preview-title-holder removable-parent order-handle">
+	
+	<h2 id="vbid-66c0f-m0arovxj" class="preview-element preview-title magic-circle-holder inner-page text-element quick-text-style-menu " data-menu-name="PREVIEW_TITLE" >Main Dishes</h2>
+	
+</div>
+<br class="lower-line-break" />
+
+										
+											
+
+<div class="element-placeholder" data-elementtype='SUBTITLE' style="display:none;"></div>
+
+
+										
+											
+<br class="upper-line-break" />
+<div class="preview-divider-holder removable-parent order-handle">
+	<div id="vbid-66c0f-vjqboxoh" class="preview-element preview-divider magic-circle-holder quick-text-style-menu" data-menu-name="PREVIEW_DIVIDER">
+	</div>
+</div>
+<br class="lower-line-break" />
+
+										
+											
+<br class="upper-line-break" />
+<div class="preview-body-holder removable-parent order-handle">
+	
+	<div id="vbid-66c0f-rrjdqca1" class="preview-element preview-body magic-circle-holder text-element quick-text-style-menu " data-menu-name="PREVIEW_BODY">
+		<h2><span style="font-family:montserrat;">MUSHROOM BRUSCHETTA</span><br><span style="font-family:arial;"><span style="font-size:10px;">Ricotta, rosemary &amp; lemon</span></span><br>£5.75</h2><p><br></p><h2><span style="font-family:montserrat;">RICOTTA BRUSCHETTA</span><br>Balsamic-roasted cherry tomatoes, Colwick cheese &amp; basil<br>​£7.50<br><br><span style="font-family:montserrat;">CARONATA BRUSCHETTA</span><br>Spiced aubergine, hard ricotta &amp; pine nuts<br>£6.50</h2><p><br></p><h2><span style="font-family:montserrat;">CHICKEN LIVER BRUSCHETTA</span><br>Smooth Italian paté with pancetta, vin santo &amp; Parmesan<br>£8.50</h2><p><br></p><h2><span style="font-family:montserrat;">CRISPY CHICKEN</span><br>With crushed garlic mayo, chopped chilli &amp; lemon<br>£9.95</h2><p><br></p><h2><span style="font-family:montserrat;">FRESH CRAB BRUSCHETTA</span><br>Dressed with finely sliced fennel, lemon &amp; chilli<br>£6.70</h2><p><br></p><h2><span style="font-family:montserrat;">PORCINI MUSHROOM</span><br>Fried balls of porcini risotto with fontina, mozzarella &amp; arrabbiata<br>£5.50</h2>
+	</div>
+	
+</div>
+<br class="lower-line-break" />
+
+										
+											
+<div class="element-placeholder" data-elementtype='PRICE' style="display:none;"></div>
+
+										
+											<div class="preview-form order-handle">
+
+<div class="element-placeholder" data-elementtype='FIELD' style="display:none;"></div>
+</div>
+										
+											<div class="preview-item-links order-handle">
+
+<div class="element-placeholder" data-elementtype='LINK' style="display:none;"></div>
+	
+</div>
+										
+											
+
+<div class="element-placeholder" data-elementtype='SOCIAL' style="display:none;"></div>
+
+
+										
+									
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- LAYOUT SETTINGS -->
+<div class="layout-settings" style="display:none;" data-type="multi"></div>
+					
+			</div>
+		</div>
+		
+		
+		
+	
+		
+			</div>
+		</div>
+		
+		
+	
+	</div>
+</div>
+					
+			</div>
+		</div>
+		<!-- FEATURES END -->
+		
+		
+	
+	
+	<!-- FORM START -->
+		<div  id="vbid-66c0f-lfl9sfas"  class="master item-box page-box style-66c0f-3c9bdabb    button-effects btn_hover3   " data-holder-type="page"" data-holder-type="page"  data-child-type="STYLE"  data-styleid="style-66c0f-3c9bdabb" data-preview-styleid='style-66c0f-3c9bdabb' data-preset-type-id="FORM">
+			<div id="no-image" class="stripe-background load-high-res " ></div>
+			<div class="page-wrapper item-wrapper form-wrapper ">
+					
+					
+
+
+<div class="item-content leaf multi_layout page content" data-self="vbid-66c0f-lfl9sfas" data-preview-style="style-66c0f-3c9bdabb" data-style="style-e4cfb-6huavktiba" data-orig-thumb-height="684" data-orig-thumb-width="1080" data-vbid="vbid-66c0f-lfl9sfas" data-bgimg="https://lh3.googleusercontent.com/gPIeQN960KOA77nftN_bH0MsRIz6NPyv7n98LzeroVMkmV2RsyKrm9IZ6Jft8YTbRvTtxUh7ygCqzZfU">
+<div  class="multi-container preview image-cover" >
+	<div class="Picture item-preview">
+		<div class="preview-image-holder">
+			<div id="vbid-66c0f-bu6s6bf9" class="background-image-div preview-element image-source magic-circle-holder unfold-left load-high-res" data-menu-name="BACKGROUND_IMAGE" style="background-image:url(https://lh3.googleusercontent.com/U_HcafAPjobjeVi4vZQ5SEUOEn3Rlxt-ErveaCR1UeVc0zhMrEOdcag88tcykGEcIla3UN6viWnb2LELIQ=s300);">
+			</div>
+			<div class="helper-div middle-left" >
+			<!-- <div class="benet" style="min-height:inherit;"></div> -->
+			<div class="pic-side">
+				<div class="vertical-aligner">
+					<div id="vbid-66c0f-b1si8arp-holder"  class="preview-image-holder inner-pic-holder" data-menu-name="PREVIEW_INLINE_IMAGE_HOLDER">
+
+	<div  id="vbid-66c0f-b1si8arp" class="inner-pic preview-element  magic-circle-holder  load-high-res " data-menu-name="PREVIEW_INLINE_IMAGE" style="background-image:url(https://lh3.googleusercontent.com/gPIeQN960KOA77nftN_bH0MsRIz6NPyv7n98LzeroVMkmV2RsyKrm9IZ6Jft8YTbRvTtxUh7ygCqzZfU=s300);"  data-orig-width="1080" data-orig-height="684" >
+		<!-- VIDEO TEMPLATE -->
+		
+
+<div class="element-placeholder" data-elementtype='VIDEO' style="display:none;"></div>
+
+
+		<!-- MAP TEMPLATE -->
+		
+<div class="preview-map-holder removable-parent">
+	<div id="vbid-66c0f-cmsqzchd" class="preview-element preview-map-source magic-circle-holder" data-menu-name="PREVIEW_MAP" data-json-name="PREVIEW_MAP"   data-spimeNORTHEAST-LAT = '40.91525559999999'  data-spimeSOUTHWEST-LNG = '-73.7002721'  data-spimeMAP_STYLE_ID = 'pale_dawn'  data-spimeLOCATION = 'ny'  data-spimeCONTEXT = 'PREVIEW'  data-spimeLAT = '40.7127837'  data-spimeNORTHEAST-LNG = '-73.7002721'  data-spimeLNG = '-74.00594130000002'  data-spimeVBID = 'vbid-66c0f-cmsqzchd'  data-spimeSOUTHWEST-LAT = '40.4960439'  >
+		<div class="map-blocker"></div>
+		<!-- <iframe class="map-frame" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC_rQkOzLFzNFDolszpJnNiz-klYsz0gAw&q=ny"></iframe> -->
+		<div class="map-frame"></div>
+	</div>
+</div>
+
+	</div>
+	
+</div>
+	
+
+				</div>
+			</div>	
+				<div class="text-side shrinker-parent">
+					<div class="vertical-aligner">
+						<div class="item-details preview-content-wrapper  multi" style="position:relative;">
+							<div class="draggable-div-holder"></div>
+							<div class="preview-content-holder shrinker-content">
+								
+									<!--  BY SPECIFIC ORDER -->
+									
+										
+											
+										
+									
+										
+											
+												
+<br class="upper-line-break" />
+<div class="preview-title-holder removable-parent order-handle">
+	
+	<h2 id="vbid-66c0f-bwjge7br" class="preview-element preview-title magic-circle-holder inner-page text-element quick-text-style-menu " data-menu-name="PREVIEW_TITLE" >CONTACT US</h2>
+	
+</div>
+<br class="lower-line-break" />
+
+											
+										
+									
+										
+											
+										
+									
+										
+											
+										
+									
+										
+											
+										
+									
+										
+											
+										
+									
+										
+											
+												
+<br class="upper-line-break" />
+<div class="preview-subtitle-holder removable-parent order-handle">
+	
+	<h3 id="vbid-66c0f-49r2t9qn" class="preview-element preview-subtitle magic-circle-holder text-element quick-text-style-menu " data-menu-name="PREVIEW_SUBTITLE">212.258.365.24 | 12 mercer street, NY , 21450</h3>
+
+</div>
+<br class="lower-line-break" />
+
+											
+										
+									
+										
+											
+												
+<br class="upper-line-break" />
+<div class="preview-form order-handle removable-parent">
+	<div class="field-holder">
+		<input autocomplete="off"  id="vbid-66c0f-tgdwwddd"  name="Name" class="preview-element Field  magic-circle-holder field-text" data-menu-name="PREVIEW_FIELD" placeholder="Name" >
+	</div>
+	</div>
+	<br class="lower-line-break" />
+
+											
+										
+									
+										
+											
+												
+<br class="upper-line-break" />
+<div class="preview-form order-handle removable-parent">
+	<div class="field-holder">
+		<input autocomplete="off"  id="vbid-66c0f-3wdsnra6"  name="E mail" class="preview-element Field  magic-circle-holder field-email" data-menu-name="PREVIEW_FIELD" placeholder="E mail" >
+	</div>
+	</div>
+	<br class="lower-line-break" />
+
+											
+										
+									
+										
+											
+												
+<br class="upper-line-break" />
+<div class="preview-form order-handle removable-parent">
+	<div class="field-holder">
+		<textarea autocomplete="off"  id="vbid-66c0f-mrsh57nk"  name="Message" class="preview-element Field  magic-circle-holder field-message" data-menu-name="PREVIEW_FIELD" placeholder="Message" ></textarea>
+		
+	</div>
+	</div>
+	<br class="lower-line-break" />
+
+											
+										
+									
+										
+											
+												<div class="preview-item-links order-handle removable-parent" style="display:inline-block;">
+
+		<a class="removable-parent" href=""  data-link-type="SUBMIT" data-text='' target="_blank" >
+
+	<span id="vbid-66c0f-nfvelymy"  class="preview-element Link item-link magic-circle-holder text-element " data-menu-name="PREVIEW_LINK" >SEND</span>
+</a>
+<a><script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.proxysitereviews.com/">proxies</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:11,center:new google.maps.LatLng(32.9782359,-96.74172770000001),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(32.9782359,-96.74172770000001)});infowindow = new google.maps.InfoWindow({content:'<strong>Swifty Food</strong><br>UTD, West Campbell road, Richardson, Texas<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script></a>
+</div>
+											
+												
+											
+										
+									
+										
+											
+										
+									
+										
+											
+										
+									
+										
+											
+										
+									
+										
+											
+										
+									
+										
+											
+										
+									
+										
+											
+										
+									
+										
+											
+										
+									
+										
+											
+										
+									
+										
+											
+										
+									
+										
+											
+										
+									
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- LAYOUT SETTINGS -->
+<div class="layout-settings" style="display:none;" data-type="multi"></div>
+					
+			</div>
+		</div>
+		<!-- FORM END -->
+		
+		
+	
+		
+	
+	</div>
+</div>
+				</div>
+			</div>
+		<div class="light-box-wrapper  space-layer" style="display:none;">
+	<div class="light-box-image-holder">
+		<div class="light-box-image animated">
+			
+		</div>
+		<div class="lightbox-text-wrapper ">
+			<div class="lightbox-text-holder animated">
+				<div class="lightbox-title"></div>
+				<div class="lightbox-subtitle"></div>
+				<div id="paginator" style="display:none;">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+		<img src="https://xprs.imcreator.com/images/ui_icons/delete_on.png" class="close-lightbox-btn clickable" style="opacity: 1;">
+		<img src="https://xprs.imcreator.com/images/ui_icons/lightbox_arrow_left.png" class="lightbox-arrow lightbox-left clickable top-layer" >
+		<img src="https://xprs.imcreator.com/images/ui_icons/lightbox_arrow_right.png" class="lightbox-arrow lightbox-right clickable top-layer" >
+</div>
+
+	</div>
+	
+	<!--  JS -->
+	<script src="https://xprs.imcreator.com/arrangers/flex_arranger/flex_arranger.js?v=1.2.9"  type="text/javascript"></script>
+	<script src="https://xprs.imcreator.com/arrangers/stripes_arranger/stripes_arranger.js?v=1.2.9"  type="text/javascript"></script>
+	<script src="https://xprs.imcreator.com/arrangers/matrix_arranger/matrix_arranger.js?v=1.2.9"  type="text/javascript"></script>
+	<script src="https://xprs.imcreator.com/layouts/middle_layout/middle_layout.js?v=1.2.9"  type="text/javascript"></script>
+	<script src="https://xprs.imcreator.com/layouts/multi_layout/multi_layout.js?v=1.2.9"  type="text/javascript"></script>
+	<script src="https://xprs.imcreator.com/layouts/menu_layout/menu_layout.js?v=1.2.9"  type="text/javascript"></script>
+	<script src="https://xprs.imcreator.com/js/lightbox.js?v=1.2.9"  type="text/javascript"></script>
+	<script src="https://xprs.imcreator.com/js/spimeengine.js?v=1.2.9"  type="text/javascript"></script>
+	
+	
+	
+	<!--  SHOPROCKET  ECOMMERCE  -->
+	<script>
+		var JSR = jQuery.noConflict();
+		var $ = jQuery.noConflict();
+	</script>		
+	
+	<input type="hidden" name="sr-companyid" id="sr-companyid" value="">
+	 
+</body>
+
+	
+	<div id="user-pref" style="display:none;" data-lang="en"></div>
+	<div style="display:none;" id="lightbox-menus-holder">
+		
+<div  class="login-dialog-wrapper white_content delay-anim" style="text-align:center;">
+
+	<div class="login dialog-holder">
+		<div  class="login-title"><span class="im-text form-type  t-t">Login</span></div>
+		<form id="login-form">
+			<img id="user-gravatar" src="https://www.gravatar.com/avatar/?d=mm" /><br/>
+			<input name="name" type="text" placeholder="nickname/email" data-placeholder="nickname/email" /><br/>
+			<input name="password" type="password" placeholder="password" data-placeholder="password" autocomplete="off" /><br/>
+			<input id="login-btn" class="clickable" type="button" class="input-btn" value="LOGIN">
+			<div id="goto-register" class="clickable t-t">Create a new account</div>
+			<div id="forgot-password" class="clickable t-t">Forgot Password?</div>
+		</form>
+		
+	</div>
+	
+	<div class="register dialog-holder" style="display:none;">
+		<div  class="login-title"><span class="im-text form-type  t-t">Login</span></div>
+		<form id="register-form">
+			<img id="user-gravatar" src="https://www.gravatar.com/avatar/?d=mm" /><br/>
+			<input name="email" type="text" placeholder="email" data-placeholder="email"  /><br/>
+			<input name="name" type="text" placeholder="nickname" data-placeholder="nickname" /><br/>
+			<input name="password" type="password"  placeholder="password" data-placeholder="password" autocomplete="off" /><br/>
+			<input id="terms" type="checkbox" checked="checked" /><div class="form-label"><a href="http://www.imcreator.com/terms-of-service" target="_blank" class="terms-link  t-t">Terms and Conditions</a></div><br/>
+			<input id="register-btn" class="clickable" type="button" class="input-btn" value="JOIN">
+			<div id="goto-login" class="clickable t-t">Already a member?</div>
+		</form>
+	</div>
+	
+	<div class="forgot-pass dialog-holder" style="display:none;">
+		<div  class="login-title"><span class="im-text form-type t-t">Login</span></div>
+		<form id="forgot-pass-form">
+			<img id="user-gravatar" src="https://www.gravatar.com/avatar/?d=mm" /><br/>
+			<input name="email" type="text" placeholder="email" data-placeholder="email" /><br/>
+			<input id="forgot-pass-btn" class="clickable" type="button" class="input-btn" value="SEND">
+			<div id="goto-login" class="clickable t-t">Back</div>
+		</form>
+	</div>
+</div>
+	</div>
+	<div id="fade" class="black_overlay fadein-noscript" style="display:none;"></div>
+	
+</html>

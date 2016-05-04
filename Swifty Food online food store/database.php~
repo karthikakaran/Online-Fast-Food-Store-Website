@@ -1,0 +1,23 @@
+<?php 
+
+$conn_error='Could not connect to database';
+$mysql_host='localhost';
+$mysql_user='root';
+$mysql_password='28111988';
+$mysql_db='swiftyfood';
+
+/*define('DB_SERVER', 'localhost:8080');
+        define('DB_USERNAME', 'root');
+        define('DB_PASSWORD', '28111988');
+        define('DB_DATABASE', 'swiftyfood');
+        $conn = mysql_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD);
+        if(! $conn ) {
+            die('Could not connect: ' . mysql_error());
+*/
+if(!(@mysql_connect($mysql_host,$mysql_user,$mysql_password) && @mysql_select_db($mysql_db)))
+{
+	die($conn_error);
+	
+}	
+
+?>

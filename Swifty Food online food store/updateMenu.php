@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="shortcut icon" href="logo2.png" type="image/x-icon">
+<title>Swifty food</title>
+
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/slide.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/modal.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="design.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.leanModal.min.js"></script>	
+	
+<script language="javascript">
+	var idArr=[];
+	function del(id){
+		if(confirm('Do you really want to delete this item?')){
+			document.editform.item.value=id;
+			document.editform.cmd.value='delete';
+			document.editform.submit();
+		}
+	}
+	
+	function edit(id,name,type,vnv,description,rate){
+		document.getElementById('item').value=id;
+		document.getElementById('name').value=name;
+		document.getElementById('type').value=type;
+		document.getElementById('vnv').value=vnv;
+		document.getElementById('description').value=description;
+		document.getElementById('rate').value=rate;
+		document.editform.cmd.value='edit';
+	}
+
+</script>
+</head>
+
+<body class="black-bg">
+	<div class="header affix1" data-spy="affix"><br>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-3"><p></p>
+                    <img src="logo3.png" class="img-rounded" alt="logo" width="150" height="150"/><p></p>
+                </div>
+                <div class="col-sm-3">
+                    <h3>SWIFTY FOOD</h3><h4  class='italicSt'>immerse in the taste</h4>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4"><p></p>
+                    <input type="button" value="ADD NEW ITEM" class="btn btn-info" id="modaltriggerAdd" href="#addmodal"/>
+                    <input type="button" value="LOGOUT" class="btn btn-info" onclick="location.href='logout.php';"/> 
+                </div>
+            </div>
+        </div><br>
+        </div>
+
+		<div id="fade"></div>
+        <div id="modal">
+            <img id="loader" src="/images/loading.gif" />
+        </div>
+        
+		<?php
+			session_start();
+			require 'database.php';
+        
+			
+		?>
+    <br />
+		
+		<br />
+		<br />
+		<div style="padding-top:220px;">
+		
+		
+		<table class="table table-hover" cellpadding="10px" cellspacing="1px"  id="menuTable" style="font-size:15px;font-family:Verdana, Geneva, sans-serif;">
+		<tr class="red-color">
+		<th>ITEM NO </th>
+		<th>NAME </th>
+		<th>TYPE</th>
+		<th>VEG/NON-VEG</th>
+		<th>DESCRIPTION </th>
+		<th>IMAGE </th>
+		<th>RATE ($)</th>
+		<th>EDIT</th>
+		<th>DELETE</th>
+		</tr>
+		
+		<?php 
+			$array = array();
+			$query = "SELECT * FROM itemDetails where delFlag = 0 ORDER by name asc";
+			
+			$result_data = mysql_query($query);
+			$i=0;
+			if(mysql_num_rows($result_data))
+			{
+				while($row = mysql_fetch_assoc($result_data)) {
+			
+					$img = str_replace(' ','%20',$row['imgPath']);
+					$path = $img;
+					
+					$vnv = $row['nvOrVeg'];
+					$type ='';
+					if($vnv=='1')
+						$type = 'VEG';
+					else
+						$type='NON-VEG';
+					$itemNo = $row['itemNo'];
+					array_push($array, $itemNo);
+					
+					?>
+					
+					<tr bgcolor="#FFFFFF">
+					<td><?php echo $row['itemNo']; ++$i;?>	</td>
+					<td><?php echo $row['name']?>	</td>
+					<td><?php echo $row['type']?>	</td>
+					<td><?php echo $type?>	</td>
+					<td><?php echo $row['description']?>	</td>
+					<td><img height="200" width="200" src="<?php echo $path?>"/>	</td>
+					<td><?php echo $row['rate']?>	</td>
+					<td><a style="text-decoration: underline;color: blue" href="#editmodal" id="modaltrigger<?php echo $row['itemNo'];?>" onclick="edit('<?php echo $row['itemNo'];?>','<?php echo $row['name'];?>','<?php echo $row['type'];?>','<?php echo $vnv;?>','<?php echo $row['description'];?>','<?php echo $row['rate'];?>')">Edit</a></td>
+					<td align="center"><a style="text-decoration: underline;color: blue" href="javascript:del(<?php echo $row['itemNo'];?>)">Delete</a></td>
+					
+					<script type="text/javascript">
+						$(function(){
+						   var php_var = "<?php echo $itemNo; ?>";						  
+						  idArr.push(php_var);						
+						});
+					</script>
+					</tr>	
+					
+					<?php 	
+				}
+			}
+			?>
+			
+		</table>
+				
+		<br />
+		
+	
+		 
+		 <div id="editmodal" style="display:none;">
+    <h1>Edit an Item</h1>
+    <form id="editform" name="editform" method="post" action="updateItem.php" enctype="multipart/form-data">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" class="txtfield" tabindex="1">
+      
+      <label for="type">Type:</label>
+      <select id="type" name="type" tabindex="2" class="txtfield">
+		<option value="">--Select--</option>
+		<option value="Main">Main</option>
+		<option value="Side">Side</option>
+                <option value="Dessert">Dessert</option>
+                <option value="Drink">Drink</option>
+      </select>	      
+	  <label for="vnv">Select Veg/Nonveg :</label>
+	  <select id="vnv" name="vnv" tabindex="3" class="txtfield">
+			<option value="">--Select--</option>
+			<option value="1">Veg</option>
+			<option value="2">Nonveg</option>
+	  </select>	
+      
+	  <label for="description">Description:</label>
+      <input type="text" name="description" id="description" class="txtfield" tabindex="4">
+	  
+	  
+    
+	<label for="fileToUpload">Select image to upload:</label>
+	<input type="file" name="fileToUpload" id="fileToUpload" class="txtfield" tabindex="5">
+	
+	<label for="rate">Rate:</label>
+      <input type="text" name="rate" id="rate" class="txtfield" tabindex="6">
+	  
+	  <input type="hidden" name="cmd" id="cmd" value="" />
+		<input type="hidden" name="item" id="item" value="" />
+	  
+      <div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal" value="Update" tabindex="7"></div>
+    </form>
+  </div>
+  
+  
+  
+  <div id="addmodal" style="display:none;">
+    <h1>Add an Item</h1>
+    <form id="addform" name="addform" method="post" action="updateItem.php" enctype="multipart/form-data">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" class="txtfield" tabindex="1">
+      
+      <label for="type">Type:</label>
+      <select id="type" name="type" tabindex="2" class="txtfield">
+		<option value="">--Select--</option>
+		<option value="Main">Main</option>
+		<option value="Side">Side</option>
+                <option value="Dessert">Dessert</option>
+                <option value="Drink">Drink</option>
+      </select>
+	  	  
+	  <label for="vnv">Select Veg/Nonveg :</label>
+	  <select id="vnv" name="vnv" tabindex="3" class="txtfield">
+			<option value="">--Select--</option>
+			<option value="1">Veg</option>
+			<option value="2">Nonveg</option>
+	  </select>	
+      
+	  <label for="description">Description:</label>
+      <input type="text" name="description" id="description" class="txtfield" tabindex="4">
+	  
+	  
+    
+	<label for="fileToUpload">Select image to upload:</label>
+	<input type="file" name="fileToUpload" id="fileToUpload" class="txtfield" tabindex="5">
+	
+	<label for="rate">Rate:</label>
+      <input type="text" name="rate" id="rate" class="txtfield" tabindex="6">
+      
+      
+	  
+	  <input type="hidden" name="cmd" id="cmd" value="add" />
+		
+	  
+      <div class="center"><input type="submit" name="addbtn" id="addbtn" class="flatbtn-blu hidemodal" value="Add" tabindex="7"></div>
+    </form>
+  </div>
+</div>
+</div>
+<script type="text/javascript">
+$(function(){
+  $('#loginform').submit(function(e){
+    return false;
+  });
+  
+  $('#modaltriggerAdd').leanModal({ top: 110, overlay: 0.45, closeButton: ".hidemodal" });
+  
+  for(var i=0;i<idArr.length;i++){
+	  var val = idArr[i];
+	  $('#modaltrigger'+val).leanModal({ top: 110, overlay: 0.45, closeButton: ".hidemodal" });
+  }
+});
+</script>
+		</body>
+
+</html>

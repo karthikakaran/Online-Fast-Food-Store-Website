@@ -1,0 +1,16 @@
+$(document).ready(function(){
+    var description ={};
+    $.ajax({
+	url:"/view.php/fetchDescription",
+	method:"post",
+	data: itemId,
+	dataType: "JSON",
+	success: function(req, res){
+		description = res;
+	} 
+    });
+    $("name").innerHTML = description.name;
+    $("itemImg").attr("src") = description.imgPath;
+    $("description").innerHTML = description.description;
+    $("price").innerHTML = description.price;
+});

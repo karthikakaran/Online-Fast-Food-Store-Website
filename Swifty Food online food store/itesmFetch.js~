@@ -1,0 +1,40 @@
+$(document).ready(function(){
+
+   var details ={};
+    $.ajax({
+    url:"/view.php/fetchAllItems",
+    method:"get",
+    dataType: "JSON",
+     sucess:function(req, res) {
+        details = res;
+    }
+    )};
+    $("#search").submit(function(){
+     $.ajax({    
+        data: {type:(), items:(), mainItems() },
+	method:"post",
+        url:"/view.php/fetchSelectedItems",
+        dataType: "JSON",
+        sucess:function(req, res) {
+           details = res;
+        }
+       });  
+    });
+    $("#filter").click(function(){
+      $.ajax({
+        data: $("txtBox").value,
+	method:"post",
+        url:"/view.php/fetchSearchedItems",
+        sucess:function(req, res) {
+           details = res;
+        }
+      });  
+    });
+    $("#minus").onclick(function(){
+alert("minus");
+	$("#qtyVal").value=Math.max(0, parseInt($("qtyVal").value)-1);
+    });
+    $("#plus").onclick(function(){
+	$("#qtyVal").value=Math.min(50, parseInt($("qtyVal").value)+1);
+    });
+});

@@ -1,0 +1,44 @@
+  .header{
+     background-color: red;
+     color: white;
+}
+.italicSt{
+        font-style:italic;
+}
+  .affix1 {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .affix2 {
+      top:190px;
+      width: 20%;
+      z-index: 9999 !important;
+ }
+.center {
+    text-align:center;
+}
+.red-color{
+    background-color:red; 
+    color: white;
+}
+.totalTxt{
+    font-weight:bold;
+    font-size:20px;
+}
+.sidebar{
+     background-color: black;
+     color: white;
+}
+.blackfont{
+     color: black;
+}
+.black-bg{
+    background-color:black; 
+}
+#addmodal,#editmodal{
+  font-size:13px;
+}
+table th{
+text-align:"center";
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="design.css"><link rel="stylesheet" href="registration.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="validation.js"></script>
+    <title>Swifty food</title>
+</head>
+<body class="sidebar">
+    <div class="header affix1" data-spy="affix"><br>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="logo3.png" class="img-rounded" alt="logo" width="150" height="150"/>
+                </div>
+                <div class="col-sm-3">
+                    <h3>SWIFTY FOOD</h3><h4  class='italicSt'>immerse in the taste</h4>
+                </div>
+                <div class="col-sm-3" style="padding-left:350px;"><br>
+                    <input type="button" value="GO BACK" class="btn btn-info" onclick="location.href = 'home.html';"/> 
+		</div>
+            </div>
+        </div><br>
+    </div>
+    <div style="padding-top:200px; padding-left:55px;">
+    <form id="customForm" action="process.php" method="post" >
+        <br>
+	<div>
+		<label for="name" STYLE="font-family: Verdana; font-weight: bold; font-size: 12px;" >Name </label>
+		<input id="name" name="name" type="text" />
+		<span id="nameInfo" >Whats your name?</span>
+	</div>
+	<br>
+	<div>
+		<label for="email" STYLE="font-family: Verdana; font-weight: bold; font-size: 12px;">E-mail </label>
+		<input id="email" name="email" type="email"/>
+		<span id="emailInfo">*Enter an email</span>
+	</div>
+	<br>
+	<div>
+		<label for="pass1" STYLE="font-family: Verdana; font-weight: bold; font-size: 12px;">Password </label>
+		<input id="pass1" name="pass1" type="password"/>
+		<span id="pass1Info">Password rules 1. At least six characters that are letters,numbers or underscore 2. One number, one lowercase and one uppercase leter</span>
+	</div>
+	<br>
+	<div>
+		<label for="mobileno" STYLE="font-family: Verdana; font-weight: bold; font-size: 12px;">Mobile Number</label>
+		<input id="mobileno" name="mobileno" type="text" maxlength="10"/>
+		<span id="mobilenoInfo">Enter your mobile no </span>
+	</div>
+	<br>
+	<div>
+		<label for="address" STYLE="font-family: Verdana; font-weight: bold; font-size: 12px;">Address:  </label>
+		<label for="aptnoname" STYLE="font-family: Verdana; font-weight: bold; font-size: 12px;">Apartment No & Name:  </label>
+		<input id="aptnoname" name="aptnoname" type="text"/>
+		<span id="aptnonameInfo">Whats your apartment number?</span>
+	</div>
+	<br>
+	<div>
+		<label for="place" STYLE="font-family: Verdana; font-weight: bold; font-size: 12px;">Place Name:  </label>
+		<input id="place" name="place" type="text"/>
+		<span id="placeInfo">Where do you stay?</span>
+	</div>
+	<br>
+	<div>
+		<label for="zipcode" STYLE="font-family: Verdana; font-weight: bold; font-size: 12px;">Zip Code:  </label>
+		<input id="zipcode" name="place" type="text" maxlength="5"/>
+		<span id="zipcodeInfo">Enter your zipcode</span>
+	</div>
+	<br><br>
+	<div>
+	   <input id="sendBtn" name="send" type="button" value="SEND" class="btn btn-info btn-md"/>	
+	</div>
+	<div>
+	</div>
+   </form>
+  </div>
+</body>
+</html>
